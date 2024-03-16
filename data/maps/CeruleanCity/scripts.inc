@@ -64,6 +64,7 @@ CeruleanCity_EventScript_Rival::
 	applymovement LOCALID_RIVAL, CeruleanCity_Movement_RivalExit
 	waitmovement 0
 	fadedefaultbgm
+	setvar VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1
 	removeobject LOCALID_RIVAL
 	releaseall
 	end
