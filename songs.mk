@@ -166,7 +166,7 @@ $(MID_SUBDIR)/mus_teachy_tv_show.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G131 -V068
 
 $(MID_SUBDIR)/mus_mt_moon.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V090
+	$(MID) $< $@ -E -R$120 -G168 -V090
 
 $(MID_SUBDIR)/mus_school.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G012 -V100 -P1
