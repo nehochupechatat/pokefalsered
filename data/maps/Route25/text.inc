@@ -57,26 +57,28 @@ Route25_Text_ChadPostBattle::
     .string "That's a good tactic.$"
 
 Route25_Text_HaleyIntro::
-    .string "My friend has many cute POKéMON.\n"
-    .string "I'm so jealous!$"
+    .string "You had many cute POKéMON.\n"
+    .string "I WANT THEM ALL!!$"
 
 Route25_Text_HaleyDefeat::
-    .string "I'm not so jealous!$"
+    .string "Okay, I'll think of something\n"
+	.string "else."
 
 Route25_Text_HaleyPostBattle::
-    .string "You came from MT. MOON?\n"
-    .string "May I have a CLEFAIRY?$"
+    .string "You came from MT. SILVER?\n"
+    .string "May I have your MEWTWO?$"
 
 Route25_Text_FranklinIntro::
-    .string "I just got down from MT. MOON,\n"
-    .string "but I've still got gas in the tank!$"
+    .string "Give me the REPELs now, n"
+	.string "you disgraceful copycat!$"
 
 Route25_Text_FranklinDefeat::
-    .string "You worked hard!$"
+    .string "You've worked hard.\n"
+	.string "...No, you didn't. Ha!$"
 
 Route25_Text_FranklinPostBattle::
-    .string "Drat!\n"
-    .string "A ZUBAT bit me back in that cave.$"
+    .string "A ZUBAT bit me back in that cave.\n"
+    .string "I need the REPELs. Shoo!$"
 
 Route25_Text_NobIntro::
     .string "I'm off to see a POKéMANIAC's\n"

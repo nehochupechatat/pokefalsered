@@ -24,10 +24,11 @@ PalletTown_Text_OakPokemonResearchLab::
     .string "OAK POKéMON RESEARCH LAB$"
 
 PalletTown_Text_PlayersHouse::
-    .string "{PLAYER}'s house$"
+    .string "RED's HOUSE\n"
+	.string "He's missing.$"
 
 PalletTown_Text_RivalsHouse::
-    .string "{RIVAL}'s house$"
+    .string "{RIVAL}'s HOUSE$"
 
 PalletTown_Text_TownSign::
     .string "PALLET TOWN\n"

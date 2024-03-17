@@ -5,7 +5,17 @@
 [travis]: https://travis-ci.org/pret/pokefirered
 [travis-badge]: https://travis-ci.org/pret/pokefirered.svg?branch=master
 
-This is a disassembly of Pokémon FireRed and LeafGreen.
+# Info 
+Pokémon False Red is a cynical take on game remakes. 
+
+
+You play as a young boy called Fire. Red, the previous champion of Kanto has gone missing.
+He has been missing for many years. All that is known is that he was on top of a snowy mountain.
+All of Kanto and Johto mourn Red and hate Fire for "replacing him". 
+Can you make it out alive?
+
+**Special thanks to:**
+Kurausukun and meister_anon for helping out with a lot of the scripting here.
 
 It builds the following ROMs:
 
@@ -16,4 +26,3 @@ It builds the following ROMs:
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
-For contacts and other pret projects, see [pret.github.io](https://pret.github.io/).
