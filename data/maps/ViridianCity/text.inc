@@ -49,8 +49,8 @@ ViridianCity_Text_ShowYouHowToCatchMons::
     .string "Ah, so you're working on your\n"
     .string "POKéDEX.\l"
     .string "…You want me to show you how to\l"
-    .string "catch POKéMON? Well, I'm sure as hell\l"
-	.string "not about to! Buzz off and\l"
+    .string "catch POKéMON? Well, I'm sure as\l"
+	.string "hell not about to! Buzz off and\l"
 	.string "leave me be! I'm going to a bar!$"
 
 ViridianCity_Text_ThatWasEducationalTakeThis::
