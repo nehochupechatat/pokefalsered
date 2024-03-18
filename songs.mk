@@ -82,7 +82,7 @@ $(MID_SUBDIR)/mus_berry_pick.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G132 -V090
 
 $(MID_SUBDIR)/mus_vermillion.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G172 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V090
 
 $(MID_SUBDIR)/mus_route1.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V079

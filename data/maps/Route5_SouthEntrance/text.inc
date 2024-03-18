@@ -1,7 +1,7 @@
 Route5_SouthEntrance_Text_ThirstyOnGuardDuty::
     .string "I'm on guard duty.\n"
     .string "Gee, I'm thirsty, though!\p"
-    .string "Oh, wait there, the road's closed.$"
+    .string "People like you can't pass. Buzz off!$"
 
 Route5_SouthEntrance_Text_ThatTeaLooksTasty::
     .string "Oh, that TEA…\n"
@@ -22,5 +22,5 @@ Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "guards!$"
 
 Route5_SouthEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "Get out.$"
 

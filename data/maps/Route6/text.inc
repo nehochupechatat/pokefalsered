@@ -22,27 +22,28 @@ Route6_Text_NancyPostBattle::
     .string "Whisper…$"
 
 Route6_Text_KeigoIntro::
-    .string "There aren't many bugs out here.$"
+    .string "There aren't many bugs out here.\n"
+	.string "I want MISSINGNO back.\p"
+	.string "Did you kill it?$"
 
 Route6_Text_KeigoDefeat::
     .string "No!\n"
     .string "You're kidding!$"
 
 Route6_Text_KeigoPostBattle::
-    .string "I like bugs, so I'm going back to\n"
-    .string "VIRIDIAN FOREST.$"
+    .string "I like bugs, so I want him back.$"
 
 Route6_Text_JeffIntro::
-    .string "Huh?\n"
-    .string "You want to talk to me?$"
+    .string "HALT!\n"
+    .string "You shall not pass!$"
 
 Route6_Text_JeffDefeat::
     .string "This stinks…\n"
-    .string "I couldn't beat your challenge…$"
+    .string "I couldn't stop you…$"
 
 Route6_Text_JeffPostBattle::
     .string "I should bring more POKéMON with\n"
-    .string "me. I'll feel safer that way.$"
+    .string "me. I'll then stop you that way.$"
 
 Route6_Text_IsabelleIntro::
     .string "Me?\n"
@@ -53,19 +54,19 @@ Route6_Text_IsabelleDefeat::
 
 Route6_Text_IsabellePostBattle::
     .string "I want to get stronger.\n"
-    .string "What's your secret?$"
+    .string "What was his secret?$"
 
 Route6_Text_ElijahIntro::
-    .string "I've never seen you around.\n"
-    .string "Are you good?$"
+    .string "I've always seen you around.\n"
+    .string "We should rematch!$"
 
 Route6_Text_ElijahDefeat::
     .string "You're too good!$"
 
 Route6_Text_ElijahPostBattle::
-    .string "Are my POKéMON weak?\n"
-    .string "Or, am I just bad?\l"
-    .string "Which do you think?$"
+    .string "It's not him.\p"
+	.string "Were his POKéMON weak?\n"
+    .string "Or, are you just evil?$"
 
 Route6_Text_UndergroundPathSign::
     .string "UNDERGROUND PATH\n"

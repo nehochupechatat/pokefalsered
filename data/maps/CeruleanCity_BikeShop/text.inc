@@ -37,12 +37,13 @@ CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
     .string "like his though.$"
 
 CeruleanCity_BikeShop_Text_BikesCoolButExpensive::
-    .string "These bikes are cool, but they're\n"
-    .string "way expensive!$"
+    .string "These bikes are cool! The store\n"
+    .string "is doing a clearance sale, so\l"
+	.string "I'm gonna get mine!$"
 
 CeruleanCity_BikeShop_Text_WowYourBikeIsCool::
     .string "Wow.\n"
-    .string "Your BIKE is really cool!$"
+    .string "Your BIKE looks just like his!$"
 
 @ Unused
 CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
@@ -52,5 +53,5 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle::
     .string "An old-school BICYCLE!\n"
-	.string "Just like his!"
+	.string "Just like his!$"
 

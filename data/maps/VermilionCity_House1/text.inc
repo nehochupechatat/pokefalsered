@@ -1,8 +1,7 @@
 VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish::
     .string "I'm the FISHING GURU!\p"
     .string "I simply looove fishing!\n"
-    .string "I can't bear to go without.\p"
-    .string "Tell me, do you like to fish?$"
+    .string "I can't bear to go withou…$"
 
 VermilionCity_House1_Text_TakeThisAndFish::
     .string "Grand! I like your style.\n"
@@ -20,7 +19,7 @@ VermilionCity_House1_Text_FishingIsAWayOfLife::
     .string "and land the big one, my friend.$"
 
 VermilionCity_House1_Text_OhThatsSoDisappointing::
-    .string "Oh…\n"
+    .string "Oh… You're not him...\n"
     .string "That's so disappointing…$"
 
 VermilionCity_House1_Text_HowAreTheFishBiting::

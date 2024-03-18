@@ -3,12 +3,12 @@ SSAnne_1F_Room6_Text_TakeAShortRest::
     .string "take a short rest?$"
 
 SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed::
-    .string "I'm glad to see that everyone is\n"
+    .string "I'm glad to see that you are\n"
     .string "looking refreshed and chipper.$"
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother::
     .string "Oh, I'm sorry for fussing over you.\n"
-    .string "You look like my little brother…$"
+    .string "You look just like him…$"
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMySister::
     .string "Oh, I'm sorry for fussing over you.\n"

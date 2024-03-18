@@ -22,10 +22,9 @@ VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain::
     .string "you've tangled with before…\p"
     .string "Have you ever had that urge?\n"
     .string "I'm sure you have.\p"
-    .string "I wanted to battle certain people\n"
+    .string "I wanted to battle a certain boy\n"
     .string "again over and over, too.\p"
-    .string "So, I've been giving these away.\n"
-    .string "Please, take one!$"
+    .string "But he never came.$"
 
 VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches::
     .string "Use that device and you'll find\n"

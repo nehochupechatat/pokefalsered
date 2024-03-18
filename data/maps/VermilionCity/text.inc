@@ -13,10 +13,10 @@ VermilionCity_Text_SSAnneHasDepartedForYear::
     .string "this time next year.$"
 
 VermilionCity_Text_BuildingOnThisLand::
-    .string "I'm putting up a building on this\n"
-    .string "plot of land. I own it all.\p"
+    .string "I'm still putting up a building on\n"
+    .string "this plot of land. I own it all.\p"
     .string "My POKéMON is tamping the land\n"
-    .string "to lay the foundation.$"
+    .string "to lay the foundation. So slow!$"
 
 VermilionCity_Text_Machop::
     .string "MACHOP: Guoh! Gogogoh!$"
@@ -31,7 +31,7 @@ VermilionCity_Text_SSAnneVisitsOnceAYear::
 
 VermilionCity_Text_CitySign::
     .string "VERMILION CITY\n"
-    .string "The Port of Exquisite Sunsets$"
+    .string "He's been here too.$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "NOTICE!\p"

@@ -52,7 +52,7 @@ Route25_SeaCottage_Text_NoPleaseBeautiful::
 
 Route25_SeaCottage_Text_ThanksBudTakeThis::
     .string "BILL: Yeehah!\n"
-    .string "Did you come to see my\n"
+    .string "Did you come to see my\l"
     .string "POKéMON collection?\p"
     .string "You didn't?\n"
     .string "That's a bummer.\p"
@@ -83,8 +83,8 @@ Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
     .string "on board, too.\p"
     .string "They invited me to their party, but\n"
     .string "I can't stand fancy do's, so I just\l"
-	.string "buried it somewhere and found it while\l"
-	.string "cleaning out the house.\p"	
+	.string "buried it somewhere and found it\l"
+	.string "while cleaning out the house.\p"	
     .string "Why don't you go instead of me?\n"
     .string "Go on and have a good time.$"
 

@@ -1,15 +1,17 @@
 Route25_Text_JoeyIntro::
     .string "Local TRAINERS come here to\n"
-    .string "practice.$"
+    .string "practice. He did too.$"
 
 Route25_Text_JoeyDefeat::
     .string "You're decent.$"
 
 Route25_Text_JoeyPostBattle::
-    .string "All POKéMON have weaknesses.\n"
-    .string "Even the strongest ones.\p"
+    .string "Even the strongest POKéMON\n"
+    .string "have weaknesses.\p"
     .string "That's why it's best to raise\n"
-    .string "POKéMON of different types.$"
+    .string "POKéMON of different types.\p"
+	.string "That's why he was such a\n"
+	.string "great trainer.$"
 
 Route25_Text_DanIntro::
     .string "Dad took me to a great party on\n"
@@ -20,29 +22,31 @@ Route25_Text_DanDefeat::
 
 Route25_Text_DanPostBattle::
     .string "On the S.S. ANNE, I saw TRAINERS\n"
-    .string "from around the world.$"
+    .string "from around the world.\p"
+	.string "I wish I could've seen him though…$"
 
 Route25_Text_FlintIntro::
-    .string "I'm a cool guy.\n"
-    .string "I've got a girlfriend!$"
+    .string "Stop trying to repeat his\n"
+    .string "story! It is disrespectful!$"
 
 Route25_Text_FlintDefeat::
     .string "Aww, darn…$"
 
 Route25_Text_FlintPostBattle::
-    .string "Oh, well.\n"
-    .string "My girlfriend will cheer me up.$"
+    .string "I'm still sad about his\n"
+    .string "disappearance. At least my\l"
+	.string "girlfriend will cheer me up a bit.$"
 
 Route25_Text_KelseyIntro::
     .string "Hi!\n"
-    .string "My boyfriend is cool!$"
+    .string "What a nice cosplay!$"
 
 Route25_Text_KelseyDefeat::
     .string "My conditioning isn't the best…$"
 
 Route25_Text_KelseyPostBattle::
     .string "I wish my boyfriend was as good\n"
-    .string "as you.$"
+    .string "as that kid was.$"
 
 Route25_Text_ChadIntro::
     .string "I had this feeling…\n"
@@ -52,9 +56,8 @@ Route25_Text_ChadDefeat::
     .string "I knew I'd lose, too!$"
 
 Route25_Text_ChadPostBattle::
-    .string "If your POKéMON gets confused,\n"
-    .string "switch it out.\p"
-    .string "That's a good tactic.$"
+    .string "I can't believe I got to battle\n"
+	.string "him! Wait, what if it was a scam?$"
 
 Route25_Text_HaleyIntro::
     .string "You had many cute POKéMON.\n"
@@ -62,14 +65,14 @@ Route25_Text_HaleyIntro::
 
 Route25_Text_HaleyDefeat::
     .string "Okay, I'll think of something\n"
-	.string "else."
+	.string "else.$"
 
 Route25_Text_HaleyPostBattle::
     .string "You came from MT. SILVER?\n"
     .string "May I have your MEWTWO?$"
 
 Route25_Text_FranklinIntro::
-    .string "Give me the REPELs now, n"
+    .string "Give me the REPELs now,\n"
 	.string "you disgraceful copycat!$"
 
 Route25_Text_FranklinDefeat::
@@ -81,7 +84,7 @@ Route25_Text_FranklinPostBattle::
     .string "I need the REPELs. Shoo!$"
 
 Route25_Text_NobIntro::
-    .string "I'm off to see a POKéMANIAC's\n"
+    .string "I'm off to see BILL's\n"
     .string "collection at the cape.$"
 
 Route25_Text_NobDefeat::
@@ -89,10 +92,9 @@ Route25_Text_NobDefeat::
     .string "too!$"
 
 Route25_Text_NobPostBattle::
-    .string "The POKéMANIAC sure lives up to\n"
-    .string "his name.\p"
-    .string "His collection includes many rare\n"
-    .string "species of POKéMON.$"
+    .string "BILL's collection includes many rare\n"
+    .string "species of POKéMON. Just like a\l"
+	.string "certain young boy's collection did.$"
 
 Route25_Text_WayneIntro::
     .string "You're going to see BILL?\n"
@@ -107,7 +109,7 @@ Route25_Text_WaynePostBattle::
 
 Route25_Text_SeaCottageSign::
     .string "SEA COTTAGE\n"
-    .string "BILL lives here!$"
+    .string "He helped BILL there.$"
 
 Route25_Text_MistyHighHopesAboutThisPlace::
     .string "This cape is a famous date spot.\p"

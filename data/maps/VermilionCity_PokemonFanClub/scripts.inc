@@ -10,10 +10,7 @@ VermilionCity_PokemonFanClub_MapScripts::
 VermilionCity_PokemonFanClub_EventScript_Chairman::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_BIKE_VOUCHER, VermilionCity_PokemonFanClub_EventScript_AlreadyHeardStory
-	msgbox VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, VermilionCity_PokemonFanClub_EventScript_ChairmanStory
-	msgbox VermilionCity_PokemonFanClub_Text_ComeBackToHearStory
+	msgbox VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons
 	release
 	end
 

@@ -1,6 +1,6 @@
 SSAnne_1F_Room5_Text_ArthurIntro::
-    .string "You insolent pup!\n"
-    .string "How dare you barge in!$"
+    .string "You insolent copy!\n"
+    .string "How dare you mock him!$"
 
 SSAnne_1F_Room5_Text_ArthurDefeat::
     .string "Humph! You rude child!\n"

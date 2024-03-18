@@ -17,10 +17,12 @@ SSAnne_B1F_Room1_Text_BarnyIntro::
     .string "All my POKéMON are from the sea.$"
 
 SSAnne_B1F_Room1_Text_BarnyDefeat::
-    .string "Darn!\n"
+    .string "Damn!\n"
     .string "I let that one get away!$"
 
 SSAnne_B1F_Room1_Text_BarnyPostBattle::
     .string "I was going to make you my\n"
-    .string "assistant, too!$"
+    .string "assistant, too!\p"
+	.string "I've always been a fan of his.\n"
+	.string "You look just like him.$"
 

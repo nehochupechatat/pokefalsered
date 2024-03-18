@@ -146,7 +146,7 @@ PewterCity_Museum_1F_EventScript_OldAmberScientist::
 	faceplayer
 	msgbox PewterCity_Museum_1F_Text_WantYouToGetAmberExamined
 	release
-	end
+	end	
 
 PewterCity_Museum_1F_EventScript_NoRoomForOldAmber::
 	msgbox PewterCity_Museum_1F_Text_DontHaveSpaceForThis

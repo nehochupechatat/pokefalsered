@@ -1,10 +1,8 @@
 SSAnne_1F_Corridor_Text_LeStrongSilentType::
     .string "Bonjour!\n"
     .string "I am le waiter on this ship!\p"
-    .string "I will be happy to serve you\n"
-    .string "anything you please!\p"
-    .string "… … …\n"
-    .string "Ah! Le strong silent type!$"
+    .string "I don't want to serve you\n"
+    .string "… Quitte s'il te plait.$"
 
 SSAnne_1F_Corridor_Text_PassengersAreRestless::
     .string "The passengers are restless from\n"

@@ -1,11 +1,11 @@
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
     .string "Won't you admire my PIKACHU's\n"
-    .string "adorable tail?$"
+    .string "adorable tail? The boy also had one!$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
     .string "Humph!\p"
     .string "My PIKACHU is twice as cute as\n"
-    .string "that one!$"
+    .string "that one! But not as cute as his was.$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
     .string "I just adore my SEEL!\n"
@@ -31,8 +31,8 @@ VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
     .string "I'm very fussy when it comes to\n"
     .string "POKéMON! I surely am!\p"
     .string "So…\p"
-    .string "Did you come visit to hear about\n"
-    .string "my POKéMON?$"
+    .string "Nice cosplay! We all miss him.\n"
+    .string "He has done everything for us.$"
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
     .string "Good!\n"
@@ -93,4 +93,4 @@ VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
     .string "Our CHAIRMAN really does adore his\n"
     .string "POKéMON.\p"
     .string "But the person who is most liked by\n"
-    .string "POKéMON is DAISY, I think.$"
+    .string "POKéMON was him, I think.$"

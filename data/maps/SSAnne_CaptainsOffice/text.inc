@@ -10,30 +10,22 @@ SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
     .string "Rub-rub…$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
-    .string "CAPTAIN: Whew! Thank you!\n"
-    .string "I'm feeling much better now.\p"
     .string "You want to see my hidden CUT\n"
-    .string "technique?\p"
-    .string "I could show you my prized CUT\n"
-    .string "technique if I weren't so ill…\p"
-    .string "I know! You can have this!\n"
-    .string "This HIDDEN MACHINE!\p"
-    .string "Teach CUT to your POKéMON, and\n"
-    .string "you can see it CUT anytime!$"
+    .string "technique?\l"
+    .string "You can have this HM!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "{PLAYER} obtained HM01\n"
     .string "from the CAPTAIN!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-    .string "Using CUT, you can chop down\n"
-    .string "small trees.\p"
+    .string "Now you can chop down small trees,\n"
+    .string "any time, even if your POKéMON\l"
+	.string "knew CUT before!$"
     .string "Why not try it with the trees\n"
     .string "around VERMILION CITY?$"
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
-    .string "CAPTAIN: …Whew!\p"
-    .string "Now that I'm not sick anymore,\n"
     .string "I guess it's time.\p"
     .string "The S.S. ANNE will set sail soon!\p"
     .string "Farewell, until our return to\n"
@@ -49,5 +41,5 @@ SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
     .string "How to Conquer Seasickness…\n"
-    .string "The CAPTAIN's reading this!$"
+    .string "The CAPTAIN's read this.$"
 

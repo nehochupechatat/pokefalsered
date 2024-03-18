@@ -4,6 +4,7 @@ CeruleanCity_BikeShop_MapScripts::
 CeruleanCity_BikeShop_EventScript_Clerk::
 	lock
 	faceplayer
+	goto_if_set FLAG_GOT_BICYCLE, CeruleanCity_BikeShop_EventScript_AlreadyGotBicycle
 	msgbox CeruleanCity_BikeShop_Text_WelcomeToBikeShop
 	goto CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher
     goto CeruleanCity_BikeShop_EventScript_ClerkGoodbye

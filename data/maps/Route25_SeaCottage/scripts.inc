@@ -9,14 +9,14 @@ Route25_SeaCottage_MapScripts::
 	.byte 0
 
 Route25_SeaCottage_OnTransition::
-	setflag FLAG_HELPED_BILL_IN_SEA_COTTAGE
-	call_if_unset FLAG_HELPED_BILL_IN_SEA_COTTAGE, Route25_SeaCottage_EventScript_HideClefairyBill
+	clearflag FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE
 	call_if_set FLAG_GOT_SS_TICKET, Route25_SeaCottage_EventScript_SetReturnedAfterSSTicket
 	end
 
 Route25_SeaCottage_EventScript_HideClefairyBill::
-	clearflag FLAG_HIDE_BILL_CLEFAIRY
-	setobjectxyperm LOCALID_BILL_HUMAN, 3, 3
+	addobject LOCALID_BILL_HUMAN
+	clearflag FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE
+	setobjectxyperm LOCALID_BILL_HUMAN, 6, 8
 	return
 
 Route25_SeaCottage_EventScript_SetReturnedAfterSSTicket::

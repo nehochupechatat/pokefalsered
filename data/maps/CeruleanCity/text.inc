@@ -34,11 +34,11 @@ CeruleanCity_Text_RivalVictory::
 
 CeruleanCity_Text_GruntIntro::
     .string "Hey! Stay out!\n"
-    .string "It's not your yard!\p"
+    .string "It's not your story!\p"
     .string "…Huh?\n"
     .string "Me?\p"
-    .string "I'm an innocent bystander!\n"
-    .string "Don't you believe me?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "I'm a criminal!\n"
+    .string "They all do this! I'm not copying!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 CeruleanCity_Text_GruntDefeat::
     .string "GRUNT: Stop! I give up!\n"
@@ -85,7 +85,7 @@ CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
     .string "You're making an encyclopedia on\n"
-    .string "POKéMON? That sounds amusing.$"
+    .string "POKéMON? Didn't he already do that?$"
 
 CeruleanCity_Text_PeopleHereWereRobbed::
     .string "The people here were robbed.\p"
@@ -132,8 +132,8 @@ CeruleanCity_Text_SlowbroIgnoredOrders::
     .string "SLOWBRO ignored orders…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
-    .string "I want a bright red bicycle, just like\p"
-    .string "the one he used back in the day.$"
+    .string "I want a bright red bicycle, just\n"
+    .string "like the one he used back then.$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
     .string "This is CERULEAN CAVE.\p"
