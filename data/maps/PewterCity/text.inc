@@ -32,7 +32,7 @@ PewterCity_Text_BrockOnlySeriousTrainerHere::
 	.string "The only one I ever met was him.\p"
     .string "They're all like BUG CATCHERS,\n"
     .string "you know, just hobbyists.\p"
-    .string 	"But PEWTER GYM's BROCK isn't like\n"
+    .string "But PEWTER GYM's BROCK isn't like\n"
     .string "that, not one bit.$"
 
 PewterCity_Text_DidYouCheckOutMuseum::
@@ -65,7 +65,7 @@ PewterCity_Text_SprayingRepelToKeepWildMonsOut::
     .string "POKéMON out of my garden!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
-    .string "You want to be like RED, right?\p"
+    .string "You want to be like him, right?\p"
     .string "BROCK's looking for new\n"
     .string "challengers. Follow me!$"
 

@@ -75,9 +75,9 @@ Text_MegaKickTaught::
 
 Route4_Text_PeopleLikeAndRespectBrock::
     .string "Oh, wow, that's the BOULDERBADGE!\n"
-    .string "You just copied RED's actions,\l"
-	.string "didn't you? How 'original'!\p"
-    .string "RED is cool. He's not just tough.\n"
+    .string "You just copied his actions,\l"
+	.string "didn't you? How original!\p"
+    .string "He was cool. He wasn't just tough.\n"
     .string "People like and respect him.\p"
     .string "I want to become a CHAMPION\n"
     .string "like him.$"

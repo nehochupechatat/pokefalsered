@@ -6,7 +6,7 @@ Route3_Text_TunnelFromCeruleanTiring::
 
 Route3_Text_ColtonIntro::
     .string "Hey!\n"
-    .string "Glad I am seeing you again, RED!$"
+    .string "Glad I am seeing you again!$"
 
 Route3_Text_ColtonDefeat::
     .string "Congratulations! You beat me again!$"
@@ -25,7 +25,7 @@ Route3_Text_BenDefeat::
     .string "I don't believe it!$"
 
 Route3_Text_BenPostBattle::
-    .string "RED would have still been here\n"
+    .string "He would have still been here\n"
     .string "with us had he brought a spare\l"
     .string "pair of shorts.$"
 
@@ -62,19 +62,19 @@ Route3_Text_SallyDefeat::
     .string "Can you sign my autograph?$"
 
 Route3_Text_SallyPostBattle::
-    .string "What do you mean you aren't RED?\n"
+    .string "What do you mean you aren't him?\n"
     .string "I WANT MY AUTOGRAPH RIGHT NOW!!!$"
 
 Route3_Text_CalvinIntro::
     .string "Hey! You're not wearing shorts!\n"
-    .string "He didn't either.$"
+    .string "He wasn't wearing any either.$"
 
 Route3_Text_CalvinDefeat::
     .string "Lost!\n"
     .string "Lost! Lost!$"
 
 Route3_Text_CalvinPostBattle::
-    .string "RED should have always worn\n"
+    .string "He should have always worn\n"
     .string "shorts, even in winter.$"
 
 Route3_Text_JamesIntro::
@@ -86,10 +86,10 @@ Route3_Text_JamesDefeat::
 
 Route3_Text_JamesPostBattle::
     .string "Well, uh, it was nice\n"
-    .string "to meet you, RED.$"
+    .string "to meet you.$"
 
 Route3_Text_RobinIntro::
-    .string "Did my senpai RED touch me?$"
+    .string "Did my senpai touch me?$"
 
 Route3_Text_RobinDefeat::
     .string "That's it? Just a cosplayer?$"

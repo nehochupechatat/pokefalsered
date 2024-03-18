@@ -1,8 +1,10 @@
 CeruleanCity_House4_Text_NothingEntertaining::
     .string "Sigh…\n"
     .string "Too much time, too little to do…\p"
-    .string "Is nothing entertaining happening\n"
-    .string "anywhere?$"
+    .string "I wonder if this was how he felt\n"
+    .string "when he became CHAMPION at just\l"
+	.string "ten years old?\p"
+	.string "The world makes us all so weary…$"
 
 CeruleanCity_House4_Text_NewNewsInformativeHaveThis::
     .string "Ah!\n"

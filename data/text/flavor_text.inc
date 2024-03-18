@@ -105,7 +105,7 @@ Text_BlinkingLights::
 
 Text_NeatlyLinedUpTools::
 	.string "All sorts of tools are lined up\n"
-	.string "neatly.$"
+	.string "neatly. I bet he used these.$"
 
 Text_ImpressiveMachine::
 	.string "It's a machine of some sort.\n"
@@ -120,5 +120,5 @@ Text_Burglary::
 	.string "here…$"
 
 Text_PlayerFacingTVScreen::
-	.string "There's a POKéMON on TV!\n"
-	.string "It looks like it's having fun.$"
+	.string "A boy is standing on a mountain.\n"
+	.string "Who is he?$"

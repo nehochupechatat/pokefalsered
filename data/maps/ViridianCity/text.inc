@@ -28,8 +28,9 @@ ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "Good grief, Grandpa!\n"
     .string "Sleeping here of all places!\p"
     .string "I'm so sorry.\n"
-    .string "His alcoholism got worse after\l"
-	.string "RED's disappearance. We all miss him.$"
+    .string "His alcoholism got worse after our\l"
+	.string "hero's disappearance.\p"
+	.string "We all miss him.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "No, grandpa! I know the loss\n"
@@ -43,7 +44,7 @@ ViridianCity_Text_ThisIsPrivateProperty::
     .string "…hey! Don’ go, I said!!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
-    .string "Ugh.. Where am I? RED, is that you?\n"
+    .string "Ugh.. Where am I? Is that you?\n"
     .string "…Nope. What are you doing here?\l"
     .string "Making fun of his legacy??\p"
     .string "Ah, so you're working on your\n"
@@ -75,7 +76,7 @@ ViridianCity_Text_WeakenMonsFirstToCatch::
     .string "POKéMON before trying to catch it.$"
 
 ViridianCity_Text_HowsTeachyTVHelping::
-    .string "Uuaaaeuugh.. RED.. da best.. trainer..\n"
+    .string "Uuaaaeuugh.. He.. da best.. trainer..\n"
     .string "He…a…sem…pai…bluurg… I…not drunk…\l"
     .string "Hic… Buzz off, imposter! You should\l"
     .string "get assaulted by TEAM ROCKET!$"

@@ -16,8 +16,7 @@ PewterCity_Museum_1F_EventScript_Scientist1::
 
 PewterCity_Museum_1F_EventScript_Scientist1BehindCounter::
 	msgbox PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PewterCity_Museum_1F_EventScript_AmberHasGeneticMatter
-	goto_if_eq VAR_RESULT, NO, PewterCity_Museum_1F_EventScript_ExplainAmber
+	goto PewterCity_Museum_1F_EventScript_AmberHasGeneticMatter
 	end
 
 PewterCity_Museum_1F_EventScript_AmberHasGeneticMatter::
@@ -145,13 +144,7 @@ PewterCity_Museum_1F_EventScript_OldMan::
 PewterCity_Museum_1F_EventScript_OldAmberScientist::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_OLD_AMBER, PewterCity_Museum_1F_EventScript_AlreadyGotOldAmber
 	msgbox PewterCity_Museum_1F_Text_WantYouToGetAmberExamined
-	checkitemspace ITEM_OLD_AMBER
-	goto_if_eq VAR_RESULT, FALSE, PewterCity_Museum_1F_EventScript_NoRoomForOldAmber
-	setflag FLAG_GOT_OLD_AMBER
-	removeobject LOCALID_OLD_AMBER
-	giveitem_msg PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan, ITEM_OLD_AMBER, 1, MUS_OBTAIN_KEY_ITEM
 	release
 	end
 

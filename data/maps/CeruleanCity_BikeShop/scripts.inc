@@ -4,8 +4,7 @@ CeruleanCity_BikeShop_MapScripts::
 CeruleanCity_BikeShop_EventScript_Clerk::
 	lock
 	faceplayer
-	message CeruleanCity_BikeShop_Text_WelcomeToBikeShop
-	waitmessage
+	msgbox CeruleanCity_BikeShop_Text_WelcomeToBikeShop
 	goto CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher
     goto CeruleanCity_BikeShop_EventScript_ClerkGoodbye
 	end

@@ -63,7 +63,9 @@ CeruleanCity_Text_MakeRoomForThisCantRun::
 CeruleanCity_Text_TrainerLifeIsToughIsntIt::
     .string "You're a TRAINER, too?\p"
     .string "Collecting, battling…\n"
-    .string "It's a tough life, isn't it?$"
+    .string "It's a tough life, isn't it?\p"
+	.string "I became a trainer because I wanted\n"
+	.string "to be just like him.$"
 
 CeruleanCity_Text_YouCanCutDownSmallTrees::
     .string "Did you know that you can CUT down\n"
@@ -130,9 +132,8 @@ CeruleanCity_Text_SlowbroIgnoredOrders::
     .string "SLOWBRO ignored orders…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
-    .string "I want a bright red bicycle.\p"
-    .string "I'll keep it at home, so it won't\n"
-    .string "get dirty.$"
+    .string "I want a bright red bicycle, just like\p"
+    .string "the one he used back in the day.$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
     .string "This is CERULEAN CAVE.\p"
