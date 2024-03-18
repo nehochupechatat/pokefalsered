@@ -7,18 +7,18 @@
         {
           "type": "land_mons",
           "encounter_rates": [
-            10,
-            10,
-            10,
-            10,
-            10,
+            8,
+            8,
+            8,
+            8,
+            8,
             3,
             5,
             5,
             4,
-            7,
+            2,
             1,
-            10
+            1
           ]
         },
         {
@@ -1046,7 +1046,7 @@
           "map": "MAP_VIRIDIAN_FOREST",
           "base_label": "sViridianForest_FireRed",
           "land_mons": {
-            "encounter_rate": 6,
+            "encounter_rate": 4,
             "mons": [
               {
                 "min_level": 4,
@@ -16451,7 +16451,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_PIDGEY"
+                "species": "SPECIES_SENTRET"
               },
               {
                 "min_level": 3,
@@ -16479,14 +16479,14 @@
                 "species": "SPECIES_RATTATA"
               },
               {
-                "min_level": 4,
-                "max_level": 4,
-                "species": "SPECIES_PIDGEY"
+                "min_level": 6,
+                "max_level": 6,
+                "species": "SPECIES_FURRET"
               },
               {
-                "min_level": 4,
-                "max_level": 4,
-                "species": "SPECIES_RATTATA"
+                "min_level": 6,
+                "max_level": 6,
+                "species": "SPECIES_RATICATE"
               },
               {
                 "min_level": 5,
@@ -16587,9 +16587,9 @@
                 "species": "SPECIES_PIDGEY"
               },
               {
-                "min_level": 4,
-                "max_level": 4,
-                "species": "SPECIES_RATTATA"
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_SPINARAK"
               },
               {
                 "min_level": 4,
@@ -16602,9 +16602,9 @@
                 "species": "SPECIES_RATTATA"
               },
               {
-                "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_PIDGEY"
+                "min_level": 7,
+                "max_level": 7,
+                "species": "SPECIES_LEDIAN"
               },
               {
                 "min_level": 5,
@@ -20940,9 +20940,9 @@
                 "species": "SPECIES_RATTATA"
               },
               {
-                "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_MANKEY"
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_POLIWAG"
               },
               {
                 "min_level": 3,
@@ -20955,9 +20955,9 @@
                 "species": "SPECIES_SPEAROW"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_RATTATA"
+                "min_level": 6,
+                "max_level": 6,
+                "species": "SPECIES_PONYTA"
               },
               {
                 "min_level": 5,
@@ -20967,7 +20967,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_RATTATA"
+                "species": "SPECIES_DODUO"
               },
               {
                 "min_level": 5,
