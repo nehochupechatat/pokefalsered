@@ -68,7 +68,7 @@ Route25_Text_HaleyDefeat::
 	.string "else.$"
 
 Route25_Text_HaleyPostBattle::
-    .string "You came from MT. SILVER?\n"
+    .string "You came from the mountains?\n"
     .string "May I have your MEWTWO?$"
 
 Route25_Text_FranklinIntro::

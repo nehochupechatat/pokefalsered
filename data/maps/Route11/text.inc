@@ -21,25 +21,29 @@ Route11_Text_JasperPostBattle::
     .string "of POKéMON!$"
 
 Route11_Text_EddieIntro::
-    .string "Let's go, but don't cheat!$"
+    .string "Let's go, but don't cheat!\n"
+	.string "I've always wanted to take on him!$"
 
 Route11_Text_EddieDefeat::
     .string "Huh?\n"
-    .string "That's not right!$"
+    .string "That's not right!\l"
+	.string "You aren't him!$"
 
 Route11_Text_EddiePostBattle::
-    .string "I did my best.\n"
-    .string "I have no regrets.$"
+    .string "I have regrets.\n"
+	.string "Give me back my money.\l"
+	.string "This is a scam!!$"
 
 Route11_Text_BraxtonIntro::
     .string "Careful!\n"
-    .string "I'm laying down some cables!$"
+    .string "I'm still laying down cables!$"
 
 Route11_Text_BraxtonDefeat::
     .string "That was electric!$"
 
 Route11_Text_BraxtonPostBattle::
-    .string "Spread the word to save energy!$"
+    .string "Spread the word to save energy!\n"
+	.string "He didn't.$"
 
 Route11_Text_DillonIntro::
     .string "I just became a TRAINER.\n"
@@ -50,40 +54,41 @@ Route11_Text_DillonDefeat::
     .string "Haven't they grown enough?$"
 
 Route11_Text_DillonPostBattle::
-    .string "What now?\n"
-    .string "Leave me alone!$"
+    .string "Please leave me alone.$"
 
 Route11_Text_DirkIntro::
     .string "Fwahaha!\n"
-    .string "I have never lost!$"
+    .string "I've only lost to him!\l"
+	.string "I wipe the floor with kids like you!$"
 
 Route11_Text_DirkDefeat::
-    .string "My first loss!$"
+    .string "My second loss!$"
 
 Route11_Text_DirkPostBattle::
-    .string "You were just lucky, that's all.$"
+    .string "You were just lucky. Now leave.$"
 
 Route11_Text_DarianIntro::
-    .string "I have never won before…$"
+    .string "I have never won…\n"
+	.string "He was too strong…$"
 
 Route11_Text_DarianDefeat::
-    .string "I saw this coming…$"
+    .string "I saw this coming… We all did.$"
 
 Route11_Text_DarianPostBattle::
-    .string "I was unlucky, as always.$"
+    .string "The GAME doesn't let me be lucky…$"
 
 Route11_Text_YasuIntro::
     .string "I'm the best in my class.\n"
-    .string "I train every morning.$"
+    .string "I train every morning.\l"
+	.string "But not as good as he was.$"
 
 Route11_Text_YasuDefeat::
-    .string "Darn!\n"
+    .string "Damn!\n"
     .string "My POKéMON need to be stronger!$"
 
 Route11_Text_YasuPostBattle::
-    .string "There's a fat POKéMON that comes\n"
-    .string "down from the mountains.\p"
-    .string "I bet it'd be strong if you can\n"
+    .string "SNORLAX came down from the mountains.\n"
+    .string "I bet it'd be strong if you can\l"
     .string "catch it.$"
 
 Route11_Text_BernieIntro::
@@ -91,22 +96,21 @@ Route11_Text_BernieIntro::
 
 Route11_Text_BernieDefeat::
     .string "Whoa!\n"
-    .string "You spark plug!$"
+    .string "What's with you kids?$"
 
 Route11_Text_BerniePostBattle::
-    .string "Well, better get back to work.$"
+    .string "Back to work! Leave now!$"
 
 Route11_Text_DaveIntro::
     .string "I raised my POKéMON carefully.\n"
     .string "They should be ready by now!$"
 
 Route11_Text_DaveDefeat::
-    .string "Bye-bye!\n"
-    .string "Thank you, and good-bye!$"
+    .string "Goodbye.$"
 
 Route11_Text_DavePostBattle::
     .string "Tch…\n"
-    .string "I better go find stronger ones!$"
+    .string "I better go find stronger ones.$"
 
 Route11_Text_DiglettsCave::
     .string "DIGLETT'S CAVE$"

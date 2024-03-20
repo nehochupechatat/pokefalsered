@@ -1,4 +1,6 @@
 RockTunnel_B1F_MapScripts::
+	setflashlevel 2
+	animateflash 2
 	.byte 0
 
 RockTunnel_B1F_EventScript_Sofia::

@@ -1,28 +1,23 @@
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
-    .string "Hi!\p"
-    .string "Sorry, but we're taking a break\n"
-    .string "right now.$"
+    .string "You aren't him.\n"
+    .string "I won't serve to you.$"
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
-    .string "My POKéMON are weak, so I often\n"
-    .string "have to go to the DRUGSTORE.$"
+    .string "Sorry, but we do not serve\n"
+    .string "disrespectful copies like you.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
-    .string "Psst! There's a basement under the\n"
-    .string "GAME CORNER, I hear.$"
+    .string "TEAM ROCKET has a basement under the\n"
+    .string "GAME CORNER. Leave and go there.$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
     .string "Munch…\p"
     .string "The man at that table lost it all\n"
-    .string "at the slots.$"
+    .string "when he heard the news.$"
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-    .string "Go ahead! Laugh!\n"
-    .string "I'm flat-out busted!\p"
-    .string "No more slots for me!\n"
-    .string "I'm going straight!\p"
-    .string "Here!\n"
-    .string "I won't be needing this anymore!$"
+    .string "You look like him.\n"
+    .string "But you aren't. Leave.$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
     .string "{PLAYER} received a COIN CASE\n"

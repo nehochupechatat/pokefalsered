@@ -2,14 +2,14 @@ RockTunnel_B1F_Text_SofiaIntro::
     .string "Do you know how you can avoid\n"
     .string "getting lost in the mountains?\p"
     .string "You can bend twigs as trail\n"
-    .string "markers.$"
+    .string "markers. I told him that once.$"
 
 RockTunnel_B1F_Text_SofiaDefeat::
-    .string "Ohhh!\n"
-    .string "I did my best!$"
+    .string "I did my best.$"
 
 RockTunnel_B1F_Text_SofiaPostBattle::
-    .string "I want to go home!$"
+    .string "I want to go home!\n"
+	.string "…Please. Come home.$"
 
 RockTunnel_B1F_Text_DudleyIntro::
     .string "Hahaha!\n"
@@ -21,10 +21,10 @@ RockTunnel_B1F_Text_DudleyDefeat::
 
 RockTunnel_B1F_Text_DudleyPostBattle::
     .string "I go for power because I hate\n"
-    .string "thinking.$"
+    .string "thinking about our loss.$"
 
 RockTunnel_B1F_Text_CooperIntro::
-    .string "You have a POKéDEX?\n"
+    .string "You have a costume of him?\n"
     .string "I want one, too.$"
 
 RockTunnel_B1F_Text_CooperDefeat::
@@ -32,20 +32,19 @@ RockTunnel_B1F_Text_CooperDefeat::
     .string "I am so jealous!$"
 
 RockTunnel_B1F_Text_CooperPostBattle::
-    .string "When you finish your POKéDEX,\n"
+    .string "When you finish your journey,\n"
     .string "can I have it?$"
 
 RockTunnel_B1F_Text_SteveIntro::
-    .string "Um… Do you know about POKéMON\n"
-    .string "cosplay?$"
+    .string "Um… You know a lot about POKéMON\n"
+    .string "cosplay. Nice suit!$"
 
 RockTunnel_B1F_Text_SteveDefeat::
     .string "Well, that's that.$"
 
 RockTunnel_B1F_Text_StevePostBattle::
-    .string "POKéMON cosplay is dressing up as\n"
-    .string "POKéMON for fun.\p"
-    .string "CLEFAIRY is a favorite.$"
+    .string "We all miss him.\n"
+    .string "Come home.$"
 
 RockTunnel_B1F_Text_AllenIntro::
     .string "My POKéMON techniques will leave\n"
@@ -57,7 +56,8 @@ RockTunnel_B1F_Text_AllenDefeat::
 
 RockTunnel_B1F_Text_AllenPostBattle::
     .string "In mountains, you'll often find\n"
-    .string "ROCK-type POKéMON.$"
+    .string "ZUBAT and ROCK POKéMON.\p"
+	.string "You'll also find him.$"
 
 RockTunnel_B1F_Text_MarthaIntro::
     .string "I don't often come here, but I will\n"
@@ -68,8 +68,8 @@ RockTunnel_B1F_Text_MarthaDefeat::
     .string "I lost!$"
 
 RockTunnel_B1F_Text_MarthaPostBattle::
-    .string "I like tiny POKéMON.\n"
-    .string "Big ones are too scary!$"
+    .string "I like all POKéMON.\n"
+    .string "He taught me to.$"
 
 RockTunnel_B1F_Text_EricIntro::
     .string "Hit me with your best shot!$"
@@ -82,7 +82,7 @@ RockTunnel_B1F_Text_EricPostBattle::
     .string "yours, kid.$"
 
 RockTunnel_B1F_Text_WinstonIntro::
-    .string "I draw illustrations of POKéMON\n"
+    .string "I draw illustrations of him\n"
     .string "when I'm home.$"
 
 RockTunnel_B1F_Text_WinstonDefeat::
@@ -90,6 +90,5 @@ RockTunnel_B1F_Text_WinstonDefeat::
     .string "I'm exhausted…$"
 
 RockTunnel_B1F_Text_WinstonPostBattle::
-    .string "I'm an artist, not a fighter.\n"
-    .string "I'll go home to draw.$"
+    .string "I'll go home to draw him.$"
 

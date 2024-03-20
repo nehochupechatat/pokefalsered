@@ -26,26 +26,25 @@ CeladonCity_DepartmentStore_3F_Text_ItsSuperNES::
 
 CeladonCity_DepartmentStore_3F_Text_AnRPG::
     .string "An RPG!\n"
-    .string "There's no time for that!$"
+    .string "It's not about you.$"
 
 CeladonCity_DepartmentStore_3F_Text_SportsGame::
-    .string "A sports game!\n"
-    .string "Dad'll like that!$"
+    .string "A mountain-climbing game!\n"
+    .string "Where is he?$"
 
 CeladonCity_DepartmentStore_3F_Text_PuzzleGame::
-    .string "A puzzle game!\n"
-    .string "Looks addictive!$"
+    .string "This is not your game.$"
 
 CeladonCity_DepartmentStore_3F_Text_FightingGame::
     .string "A fighting game!\n"
-    .string "Looks tough!$"
+    .string "This isn't yours.$"
 
 CeladonCity_DepartmentStore_3F_Text_TVGameShop::
     .string "3F: TV GAME SHOP$"
 
 CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon::
     .string "Red and Green!\n"
-    .string "Both are POKéMON!$"
+    .string "Neither are your stories!$"
 
 Text_CounterTeach::
     .string "Oh, hi!\n"

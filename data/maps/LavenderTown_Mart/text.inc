@@ -1,22 +1,19 @@
 LavenderTown_Mart_Text_SearchingForStatRaiseItems::
-    .string "I'm searching for items that raise\n"
-    .string "the stats of POKéMON.\p"
-    .string "They're effective over the course\n"
-    .string "of a single battle.\p"
-    .string "X ATTACK, X DEFEND, X SPEED, \n"
-    .string "and X SPECIAL are what I'm after.\p"
-    .string "Do you know where I can get them?$"
+    .string "Who are you?$"
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
     .string "Did you buy some REVIVES?\n"
-    .string "They revive any fainted POKéMON!$"
-
+    .string "They revive any fainted POKéMON!\p"
+	.string "…I wish they'd bring him back too.$"
+	
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::
     .string "Sometimes, a TRAINER duo will\n"
     .string "challenge you with two POKéMON\l"
     .string "at the same time.\p"
     .string "If that happens, you have to send\n"
-    .string "out two POKéMON to battle, too.$"
+    .string "out two POKéMON to battle, too.\p"
+	.string "He never had a chance to do that.\n"
+	.string "I blame you.$"
 
 LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000::
     .string "この　あいだ　やまおくで\n"

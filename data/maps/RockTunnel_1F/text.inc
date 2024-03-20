@@ -6,10 +6,9 @@ RockTunnel_1F_Text_LennyDefeat::
     .string "You win!$"
 
 RockTunnel_1F_Text_LennyPostBattle::
-    .string "Watch for ONIX.\n"
-    .string "They appear only occasionally.\p"
-    .string "High-level ones can put the\n"
-    .string "squeeze on you!$"
+    .string "Watch for POKéMANIACS.\n"
+    .string "The more rabid ones can put the\l"
+    .string "squeeze on people like you!$"
 
 RockTunnel_1F_Text_OliverIntro::
     .string "Hmm.\n"
@@ -25,24 +24,25 @@ RockTunnel_1F_Text_OliverPostBattle::
     .string "forced me to take this detour.$"
 
 RockTunnel_1F_Text_LucasIntro::
-    .string "Outsiders like you need to show me\n"
+    .string "Outsiders like you need to show us\n"
     .string "some respect!$"
 
 RockTunnel_1F_Text_LucasDefeat::
-    .string "I give!$"
+    .string "Please stop acting like you're him.$"
 
 RockTunnel_1F_Text_LucasPostBattle::
-    .string "You're talented enough to hike!$"
+    .string "I hope you get lost here.$"
 
 RockTunnel_1F_Text_AshtonIntro::
-    .string "POKéMON fight!\n"
-    .string "Ready, go!$"
+    .string "Give me your clothes!\n"
+    .string "I've always wanted to cosplay him!$"
 
 RockTunnel_1F_Text_AshtonDefeat::
-    .string "Game over!$"
+    .string "Aw man!$"
 
 RockTunnel_1F_Text_AshtonPostBattle::
-    .string "Oh well, I'll get a ZUBAT as I go!$"
+    .string "Oh well, I hope to save up and\n"
+	.string "buy clothing like his!$"
 
 RockTunnel_1F_Text_LeahIntro::
     .string "Eek!\p"
@@ -53,25 +53,26 @@ RockTunnel_1F_Text_LeahDefeat::
     .string "It was too dark…$"
 
 RockTunnel_1F_Text_LeahPostBattle::
-    .string "I saw a MACHOP in this tunnel.$"
+    .string "I saw him in a similar tunnel.$"
 
 RockTunnel_1F_Text_DanaIntro::
-    .string "I came this far looking for wild\n"
-    .string "POKéMON.$"
+    .string "I came this far looking for him.$"
 
 RockTunnel_1F_Text_DanaDefeat::
-    .string "I'm out of POKéMON!$"
+    .string "Oops.$"
 
 RockTunnel_1F_Text_DanaPostBattle::
-    .string "You looked cute and harmless.\n"
-    .string "Was I ever wrong!$"
+    .string "You looked like him.\n"
+    .string "I always wanted to fight him!\p"
+	.string "Too bad though.\n"
+	.string "You don't measure up.$"
 
 RockTunnel_1F_Text_ArianaIntro::
-    .string "You have POKéMON!\n"
+    .string "You have his POKéMON!\n"
     .string "Let's start!$"
 
 RockTunnel_1F_Text_ArianaDefeat::
-    .string "You play hard!$"
+    .string "You play hard! Like he did.$"
 
 RockTunnel_1F_Text_ArianaPostBattle::
     .string "Whew!\n"

@@ -12,8 +12,7 @@ CeladonCity_DepartmentStore_2F_Text_FloorSign::
     .string "2F: TRAINER'S MARKET$"
 
 CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes::
-    .string "We have a customer, LANCE, who\n"
-    .string "occasionally comes.\p"
-    .string "He always buys capes.\p"
-    .string "I wonder… Does he have many\n"
-    .string "identical capes at home?$"
+    .string "We had a customer who occasionally\n"
+    .string "came.\p"
+    .string "He always bought red and white caps.\n"
+    .string "I wonder… Will he ever come home?$"

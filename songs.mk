@@ -4,7 +4,7 @@ $(MID_BUILDDIR)/%.o: $(MID_SUBDIR)/%.s
 	$(AS) $(ASFLAGS) -I sound -o $@ $<
 
 $(MID_SUBDIR)/mus_rocket_hideout.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G133 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V090
 
 $(MID_SUBDIR)/mus_follow_me.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G131 -V068
@@ -166,13 +166,13 @@ $(MID_SUBDIR)/mus_teachy_tv_show.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G131 -V068
 
 $(MID_SUBDIR)/mus_mt_moon.s: %.s: %.mid
-	$(MID) $< $@ -E -R$120 -G168 -V090
+	$(MID) $< $@ -E -R70 -G168 -V090
 
 $(MID_SUBDIR)/mus_school.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G012 -V100 -P1
 
 $(MID_SUBDIR)/mus_poke_tower.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G165 -V090
+	$(MID) $< $@ -E -R70 -G168 -V090
 
 $(MID_SUBDIR)/mus_poke_center.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G162 -V096

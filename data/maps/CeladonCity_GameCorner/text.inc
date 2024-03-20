@@ -1,6 +1,6 @@
 CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor::
     .string "Welcome!\p"
-    .string "You can exchange your COINS for\n"
+    .string "You can't exchange your COINS for\n"
     .string "fabulous prizes next door.$"
 
 CeladonCity_GameCorner_Text_WelcomeBuySomeCoins::
@@ -28,9 +28,7 @@ CeladonCity_GameCorner_Text_HereAreYourCoins::
     .string "Here are your COINS!$"
 
 CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace::
-    .string "Keep this quiet.\p"
-    .string "It's rumored that this place is run\n"
-    .string "by TEAM ROCKET.$"
+    .string "This place is run by TEAM ROCKET.$"
 
 CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds::
     .string "I think these machines have\n"
@@ -57,14 +55,9 @@ CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
 CeladonCity_GameCorner_Text_GymGuyAdvice::
     .string "Hey!\p"
     .string "You have better things to do,\n"
-    .string "champ in the making!\p"
-    .string "CELADON GYM's LEADER is ERIKA.\p"
-    .string "She is a user of GRASS-type\n"
-    .string "POKéMON, and at one with nature.\p"
-    .string "She might appear docile because of\n"
-    .string "her flower arranging…\p"
-    .string "But she's not one to be taken\n"
-    .string "lightly!$"
+    .string "liar in the making!\p"
+    .string "Quit playing right now.\n"
+    .string "You will never win.$"
 
 CeladonCity_GameCorner_Text_RareMonsForCoins::
     .string "They offer rare POKéMON that can\n"
@@ -72,8 +65,8 @@ CeladonCity_GameCorner_Text_RareMonsForCoins::
     .string "But, I just can't seem to win!$"
 
 CeladonCity_GameCorner_Text_SoEasyToGetHooked::
-    .string "Games are scary!\n"
-    .string "It's so easy to get hooked!$"
+    .string "Mountains are scary!\n"
+    .string "It's so easy to get lost!$"
 
 CeladonCity_GameCorner_Text_WantSomeCoins::
     .string "What's up?\n"
@@ -107,16 +100,14 @@ CeladonCity_GameCorner_Text_WatchReelsClosely::
     .string "closely.$"
 
 CeladonCity_GameCorner_Text_GruntIntro::
-    .string "I'm guarding this poster!\n"
-    .string "Go away, or else!$"
+    .string "You're not going to stop us, because!\n"
+    .string "you're not him! Go away, or else!$"
 
 CeladonCity_GameCorner_Text_GruntDefeat::
-    .string "Dang!$"
+    .string "No!$"
 
 CeladonCity_GameCorner_Text_GruntPostBattle::
-    .string "The TEAM ROCKET HIDEOUT might\n"
-    .string "be discovered!\p"
-    .string "I better tell BOSS!$"
+    .string "I better tell BOSS you are here.$"
 
 CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt::
     .string "Hey!\p"

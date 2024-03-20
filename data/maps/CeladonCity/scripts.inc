@@ -28,7 +28,10 @@ CeladonCity_EventScript_OldMan2::
 	end
 
 CeladonCity_EventScript_SoftboiledTutor::
-	goto EventScript_SoftboiledTutor
+	msgbox Text_SoftboiledTeach
+	msgbox Text_SoftboiledDeclined
+	msgbox Text_SoftboiledTaught
+	release
 	end
 
 CeladonCity_EventScript_FatMan::

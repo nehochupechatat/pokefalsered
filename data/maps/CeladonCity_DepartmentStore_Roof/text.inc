@@ -53,9 +53,8 @@ CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
     .string "My sister is a TRAINER, believe it\n"
     .string "or not.\p"
-    .string "But, she's so immature, she drives\n"
-    .string "me nuts!$"
-
+    .string "She wants to be just like him.$"
+	
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
     .string "I'm thirsty!\n"
     .string "I want something to drink!$"
