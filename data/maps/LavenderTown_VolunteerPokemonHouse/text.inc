@@ -29,12 +29,13 @@ LavenderTown_VolunteerPokemonHouse_Text_Psyduck::
 
 LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
     .string "MR. FUJI: {PLAYER}…\p"
-    .string "Your POKéDEX quest is one that\n"
+    .string "Your quest is one that\n"
     .string "requires strong dedication.\p"
-    .string "Without deep love for POKéMON,\n"
-    .string "your quest may fail.\p"
-    .string "I'm not sure if this will help you,\n"
-    .string "but I'd like you to have it.$"
+    .string "Stop kidding yourself.\n"
+    .string "You're not him.\p"
+    .string "I'm giving away this POKé FLUTE,\n"
+    .string "so you can at least do something\l"
+	.string "for once.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
     .string "{PLAYER} received a POKé FLUTE\n"
@@ -43,22 +44,21 @@ LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
     .string "Upon hearing the POKé FLUTE,\n"
     .string "sleeping POKéMON will spring awake.\p"
-    .string "Try using it on POKéMON that are\n"
-    .string "sleeping obstacles.$"
+    .string "Now go and use it on the SNORLAX\n"
+    .string "that block the pathways..$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis::
     .string "You must make room for this!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou::
     .string "MR. FUJI: Has my POKé FLUTE\n"
-    .string "helped you?$"
+    .string "helped you? It helped him.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped::
     .string "POKéMON FAN MAGAZINE\n"
-    .string "Monthly Grand Prize Drawing!\p"
-    .string "The application form is…\p"
-    .string "Gone! It's been clipped out.\n"
-    .string "Someone must have applied already.$"
+    .string "Top 10 Greatest POKéMON TRAINERs\p"
+    .string "The number one is…\p"
+    .string "Gone! He was last seen on a mountain.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf::
     .string "POKéMON magazines line the shelf.\p"

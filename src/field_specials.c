@@ -874,10 +874,10 @@ void GetElevatorFloor(void)
             floor = 14;
             break;
         case MAP_NUM(ROCKET_HIDEOUT_B1F):
-            floor = 1;
+            floor = 0;
             break;
         case MAP_NUM(ROCKET_HIDEOUT_B4F):
-            floor = 0;
+            floor = 1;
             break;
         }
     }

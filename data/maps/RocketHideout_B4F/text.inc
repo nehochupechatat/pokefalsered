@@ -21,18 +21,18 @@ RocketHideout_B4F_Text_GiovanniPostBattle::
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "I know you!\n"
-    .string "You ruined our plans at MT. MOON!$"
+    .string "You ruined our world!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
     .string "Burned again!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
-    .string "Do you have something against TEAM\n"
-    .string "ROCKET?$"
+    .string "Do you have something against KANTO?$\n"
 
 RocketHideout_B4F_Text_Grunt3Intro::
     .string "How can you not see the beauty of\n"
-    .string "our evil?$"
+    .string "our evil? He didn't either. You kids\l"
+	.string "are so stupid.$"
 
 RocketHideout_B4F_Text_Grunt3Defeat::
     .string "Ayaya!$"
