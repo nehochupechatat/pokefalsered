@@ -10,8 +10,7 @@ RocketHideout_B3F_Text_GruntPostBattle::
     .string "You won't. This isn't your story.$"
 
 RocketHideout_B3F_Text_Grunt1Intro::
-    .string "Stop meddling in TEAM ROCKET's\n"
-    .string "affairs or else!$"
+    .string "Stop meddling in his story or else!$"
 
 RocketHideout_B3F_Text_Grunt1Defeat::
     .string "Oof!\n"

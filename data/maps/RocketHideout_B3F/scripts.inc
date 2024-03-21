@@ -1,3 +1,5 @@
+.equ LOCALID_LIFT_KEY,    7
+
 RocketHideout_B3F_MapScripts::
 	.byte 0
 	
@@ -46,9 +48,6 @@ RocketHideout_4F_EventScript_Grunt2::
 	end
 
 RocketHideout_4F_EventScript_DefeatedGrunt2::
-	setvar NUM_DOOR_GRUNTS_DEFEATED, 0
-	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_16, RocketHideout_B4F_EventScript_CountGruntDefeated
-	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_17, RocketHideout_B4F_EventScript_CountGruntDefeated
 	release
 	end
 
@@ -58,8 +57,5 @@ RocketHideout_4F_EventScript_Grunt3::
 	end
 
 RocketHideout_4F_EventScript_DefeatedGrunt3::
-	setvar NUM_DOOR_GRUNTS_DEFEATED, 0
-	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_16, RocketHideout_B4F_EventScript_CountGruntDefeated
-	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_17, RocketHideout_B4F_EventScript_CountGruntDefeated
 	release
 	end
