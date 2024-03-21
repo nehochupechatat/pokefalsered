@@ -1,11 +1,11 @@
 RocketHideout_B4F_Text_GiovanniIntro::
     .string "So! I must say, I am impressed you\n"
     .string "got here.\p"
-    .string "TEAM ROCKET captures POKéMON from\n"
-    .string "around the world.\p"
-    .string "They're important tools for keeping\n"
-    .string "our criminal enterprise going.\p"
-    .string "I am the leader, GIOVANNI!\p"
+    .string "RED may have been able to stop me,\n"
+    .string "but you're not him.\p"
+    .string "You can try, but you'll never be able\n"
+    .string "to stop me from keeping our criminal\l"
+    .string "enterprise going.\p"
     .string "For your insolence, you will feel a\n"
     .string "world of pain!$"
 
@@ -14,12 +14,10 @@ RocketHideout_B4F_Text_GiovanniDefeat::
     .string "This can't be!$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-    .string "I see that you raise POKéMON with\n"
-    .string "utmost care.\p"
     .string "A child like you would never\n"
     .string "understand what I hope to achieve.\p"
-    .string "I shall step aside this time!\p"
-    .string "I hope we meet again…$"
+    .string "He did and managed to stop me.\p"
+    .string "I hope we don't meet again…$"
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "I know you!\n"

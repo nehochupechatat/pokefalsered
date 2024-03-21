@@ -13,32 +13,23 @@ RocketHideout_Elevator_EventScript_FloorSelect::
 	setvar VAR_0x8004, 2
 	specialvar VAR_RESULT, InitElevatorFloorSelectMenuPos
 	switch VAR_RESULT
-	case 0, RocketHideout_Elevator_EventScript_FloorSelectFromB1F
-	case 1, RocketHideout_Elevator_EventScript_FloorSelectFromB2F
-	case 2, RocketHideout_Elevator_EventScript_FloorSelectFromB4F
+	case 1, RocketHideout_Elevator_EventScript_FloorSelectFromB1F
+	case 0, RocketHideout_Elevator_EventScript_FloorSelectFromB4F
 	end
 
 RocketHideout_Elevator_EventScript_FloorSelectFromB1F::
-	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 0, FALSE
-	goto RocketHideout_Elevator_EventScript_ChooseFloor
-	end
-
-RocketHideout_Elevator_EventScript_FloorSelectFromB2F::
 	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 1, FALSE
 	goto RocketHideout_Elevator_EventScript_ChooseFloor
 	end
-
 RocketHideout_Elevator_EventScript_FloorSelectFromB4F::
-	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 2, FALSE
+	multichoicedefault 0, 0, MULTICHOICE_ROCKET_HIDEOUT_ELEVATOR, 0, FALSE
 	goto RocketHideout_Elevator_EventScript_ChooseFloor
 	end
 
 RocketHideout_Elevator_EventScript_ChooseFloor::
 	switch VAR_RESULT
-	case 0, RocketHideout_Elevator_EventScript_ToB1F
-	case 1, RocketHideout_Elevator_EventScript_ToB2F
-	case 2, RocketHideout_Elevator_EventScript_ToB4F
-	case 3, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case 0, RocketHideout_Elevator_EventScript_ToB4F
+	case 1, RocketHideout_Elevator_EventScript_ToB1F
 	case 127, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 

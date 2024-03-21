@@ -1324,8 +1324,8 @@
     {
       "id": "LAYOUT_ROCKET_HIDEOUT_B1F",
       "name": "RocketHideout_B1F_Layout",
-      "width": 28,
-      "height": 34,
+      "width": 19,
+      "height": 25,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
@@ -1348,7 +1348,7 @@
     {
       "id": "LAYOUT_ROCKET_HIDEOUT_B3F",
       "name": "RocketHideout_B3F_Layout",
-      "width": 22,
+      "width": 11,
       "height": 27,
       "border_width": 2,
       "border_height": 2,

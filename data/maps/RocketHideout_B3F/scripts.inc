@@ -1,5 +1,6 @@
 RocketHideout_B3F_MapScripts::
 	.byte 0
+	
 
 RocketHideout_B3F_EventScript_Grunt1::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_14, RocketHideout_B3F_Text_Grunt1Intro, RocketHideout_B3F_Text_Grunt1Defeat
@@ -9,4 +10,56 @@ RocketHideout_B3F_EventScript_Grunt1::
 RocketHideout_B3F_EventScript_Grunt2::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_15, RocketHideout_B3F_Text_Grunt2Intro, RocketHideout_B3F_Text_Grunt2Defeat
 	msgbox RocketHideout_B3F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RocketHideout_B3F_EventScript_Grunt3::
+	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_13, RocketHideout_B3F_Text_GruntIntro, RocketHideout_B3F_Text_GruntDefeat
+	msgbox RocketHideout_B3F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RocketHideout_4F_EventScript_Grunt1::
+	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_18, RocketHideout_4F_Text_Grunt1Intro, RocketHideout_4F_Text_Grunt1Defeat, RocketHideout_4F_EventScript_DefeatedGrunt1
+	msgbox RocketHideout_4F_Text_Grunt1PostBattle
+	release
+	end
+
+RocketHideout_4F_EventScript_DefeatedGrunt1::
+	msgbox RocketHideout_4F_Text_Grunt1PostBattle
+	addobject LOCALID_LIFT_KEY
+	clearflag FLAG_HIDE_LIFT_KEY
+	release
+	end
+
+RocketHideout_4F_EventScript_LiftKey::
+	lock
+	faceplayer
+	setflag FLAG_CAN_USE_ROCKET_HIDEOUT_LIFT
+	removeobject LOCALID_LIFT_KEY
+	giveitem ITEM_LIFT_KEY
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	release
+	end
+
+RocketHideout_4F_EventScript_Grunt2::
+	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_16, RocketHideout_4F_Text_Grunt2Intro, RocketHideout_4F_Text_Grunt2Defeat, RocketHideout_4F_EventScript_DefeatedGrunt2
+	msgbox RocketHideout_4F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RocketHideout_4F_EventScript_DefeatedGrunt2::
+	setvar NUM_DOOR_GRUNTS_DEFEATED, 0
+	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_16, RocketHideout_B4F_EventScript_CountGruntDefeated
+	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_17, RocketHideout_B4F_EventScript_CountGruntDefeated
+	release
+	end
+
+RocketHideout_4F_EventScript_Grunt3::
+	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_17, RocketHideout_4F_Text_Grunt3Intro, RocketHideout_4F_Text_Grunt3Defeat, RocketHideout_4F_EventScript_DefeatedGrunt3
+	msgbox RocketHideout_4F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RocketHideout_4F_EventScript_DefeatedGrunt3::
+	setvar NUM_DOOR_GRUNTS_DEFEATED, 0
+	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_16, RocketHideout_B4F_EventScript_CountGruntDefeated
+	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_17, RocketHideout_B4F_EventScript_CountGruntDefeated
+	release
 	end

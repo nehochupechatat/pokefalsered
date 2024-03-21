@@ -37,10 +37,6 @@ RocketHideout_B1F_EventScript_Grunt5::
 	end
 
 RocketHideout_B1F_EventScript_DefeatedGrunt5::
-	call RocketHideout_B1F_EventScript_RemoveBarrier
-	playse SE_UNLOCK
-	special DrawWholeMapView
-	waitse
 	release
 	end
 
