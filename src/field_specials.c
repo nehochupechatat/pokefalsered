@@ -874,10 +874,7 @@ void GetElevatorFloor(void)
             floor = 14;
             break;
         case MAP_NUM(ROCKET_HIDEOUT_B1F):
-            floor = 3;
-            break;
-        case MAP_NUM(ROCKET_HIDEOUT_B2F):
-            floor = 2;
+            floor = 1;
             break;
         case MAP_NUM(ROCKET_HIDEOUT_B4F):
             floor = 0;
@@ -931,7 +928,7 @@ void GetElevatorFloor(void)
 u16 InitElevatorFloorSelectMenuPos(void)
 {
     sElevatorScroll = 0;
-    sElevatorCursorPos = 0;
+    sElevatorCursorPos = 1;
 
     if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(ROCKET_HIDEOUT_B1F))
     {
@@ -983,15 +980,11 @@ u16 InitElevatorFloorSelectMenuPos(void)
             break;
         case MAP_NUM(ROCKET_HIDEOUT_B1F):
             sElevatorScroll = 0;
-            sElevatorCursorPos = 0;
-            break;
-        case MAP_NUM(ROCKET_HIDEOUT_B2F):
-            sElevatorScroll = 0;
             sElevatorCursorPos = 1;
             break;
         case MAP_NUM(ROCKET_HIDEOUT_B4F):
             sElevatorScroll = 0;
-            sElevatorCursorPos = 2;
+            sElevatorCursorPos = 0;
             break;
         }
     }
