@@ -1280,6 +1280,8 @@ static void Task_OakSpeech_AskPlayerGender(u8 taskId)
             ClearTrainerPic();
             gSaveBlock2Ptr->playerGender = MALE;
 			GetDefaultName(0, 0);
+			sOakSpeechResources->hasPlayerBeenNamed = TRUE;
+			GetDefaultName(1, 0);
             gTasks[taskId].func = Task_OakSpeech_ReshowPlayersPic;
         }
     }

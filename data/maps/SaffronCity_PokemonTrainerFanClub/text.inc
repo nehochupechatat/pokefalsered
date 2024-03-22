@@ -5,29 +5,15 @@ SaffronCity_PokemonTrainerFanClub_Text_HuhYou::
 SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow::
     .string "Are you maybe…\n"
     .string "… …\p"
-    .string "You are!\n"
-    .string "You are {PLAYER}!\p"
-    .string "We were just talking about you!\p"
-    .string "We were talking about how an\n"
-    .string "incredibly good TRAINER appeared.\p"
-    .string "And that someone is you!\n"
-    .string "You're so cool!\p"
-    .string "So, we decided that we'll become\n"
-    .string "your FAN CLUB!\p"
-    .string "We all hope you'll keep battling\n"
-    .string "and show us how cool you are.\p"
-    .string "That way, maybe other people will\n"
-    .string "become fans just like me.$"
+    .string "…Oh…\n"
+    .string "No, you aren't.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou::
-    .string "I'll always be cheering for you!\p"
-    .string "Go, {PLAYER}, go!$"
+    .string "I'll always be cheering for him.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_IllAlwaysBelieveInYou::
-    .string "I'll always believe in you,\n"
-    .string "{PLAYER}.\p"
     .string "Please show the others what you're\n"
-    .string "like when you battle seriously.$"
+    .string "like when you battle originally.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WasYourFanNotAnymore::
     .string "I'm sorry.\n"
@@ -51,7 +37,7 @@ SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe::
 SaffronCity_PokemonTrainerFanClub_Text_TrainersCoolWhenBattling::
     .string "I think TRAINERS are so cool when\n"
     .string "they're battling.\p"
-    .string "Don't you think so, too?$"
+    .string "Are you a fan of his too?$"
 
 SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts::
     .string "Oh! It's him!\n"
@@ -122,7 +108,7 @@ SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning::
     .string "of POKéMON TRAINERS.\p"
     .string "The way they look in battle…\n"
     .string "They are the picture of coolness.\p"
-    .string "But we will nevee talk about you.$"
+    .string "But we will never talk about you.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay::
     .string "It's {PLAYER}!\n"
@@ -260,12 +246,11 @@ SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan::
     .string "I can't stop being your fan!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect::
-    .string "Hiyah! There is but one TRAINER\n"
-    .string "who has my respect.\p"
-    .string "And that is none other than my\n"
+    .string "Hiyah! There are but TRAINERS\n"
+    .string "who have my respect.\p"
+    .string "One is none other than my\n"
     .string "MASTER at the FIGHTING DOJO.\p"
-    .string "You should become a fan of my\n"
-    .string "MASTER like me! Hiyah!$"
+    .string "The other isn't you.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_NeverBeFanOfAnyoneButMaster::
     .string "Hiyah! I respect my MASTER at the\n"
