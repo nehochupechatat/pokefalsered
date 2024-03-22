@@ -1245,7 +1245,6 @@ static void Task_OakSpeech_TellMeALittleAboutYourself(u8 taskId)
         }
         else
         {
-            OakSpeechPrintMessage(gOakSpeech_Text_TellMeALittleAboutYourself, sOakSpeechResources->textSpeed);
             gTasks[taskId].func = Task_OakSpeech_FadeOutOak;
         }
     }
@@ -1261,6 +1260,7 @@ static void Task_OakSpeech_FadeOutOak(u8 taskId)
         CreateFadeInTask(taskId, 2);
         tTimer = 48;
         gTasks[taskId].func = Task_OakSpeech_AskPlayerGender;
+		
     }
 }
 
@@ -1278,8 +1278,9 @@ static void Task_OakSpeech_AskPlayerGender(u8 taskId)
         {
             tTrainerPicPosX = -60;
             ClearTrainerPic();
-            OakSpeechPrintMessage(gOakSpeech_Text_AskPlayerGender, sOakSpeechResources->textSpeed);
-            gTasks[taskId].func = Task_OakSpeech_ShowGenderOptions;
+            gSaveBlock2Ptr->playerGender = MALE;
+			GetDefaultName(0, 0);
+            gTasks[taskId].func = Task_OakSpeech_ReshowPlayersPic;
         }
     }
 }
@@ -2143,7 +2144,7 @@ static void GetDefaultName(u8 hasPlayerBeenNamed, u8 rivalNameChoice)
     if (hasPlayerBeenNamed == FALSE)
     {
         if (gSaveBlock2Ptr->playerGender == MALE)
-            src = sMaleNameChoices[Random() % ARRAY_COUNT(sMaleNameChoices)];
+            src = sMaleNameChoices[1];
         else
             src = sFemaleNameChoices[Random() % ARRAY_COUNT(sFemaleNameChoices)];
         dest = gSaveBlock2Ptr->playerName;
