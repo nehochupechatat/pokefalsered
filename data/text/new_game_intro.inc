@@ -195,7 +195,7 @@ gOakSpeech_Text_WelcomeToTheWorld::
     .string "Welcome to the world of POKéMON!\p"
     .string "My name is OAK.\p"
     .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
+    .string "as the POKéMON PROFESSOR.$"
 
 gOakSpeech_Text_ThisWorld::
     .string "This world…$"
@@ -240,7 +240,7 @@ gOakSpeech_Text_RememberRivalsName::
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
-    .string "Your very own POKéMON legend is\n"
+    .string "His very own POKéMON legend is\n"
     .string "about to unfold!\p"
     .string "A world of dreams and adventures\n"
     .string "with POKéMON awaits! Let's go!$"

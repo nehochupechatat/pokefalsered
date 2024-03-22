@@ -8,10 +8,9 @@ SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
     .string "attracted TEAM ROCKET.$"
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
-    .string "Sigh…\n"
-    .string "Wouldn't this be great?\p"
-    .string "If the ELITE FOUR came and\n"
-    .string "stomped TEAM ROCKET?$"
+    .string "Sigh…\p"
+    .string "Wouldn't it be great if he came back\n"
+    .string "to stomp TEAM ROCKET?$"
 
 SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff::
     .string "TEAM ROCKET took off!\n"

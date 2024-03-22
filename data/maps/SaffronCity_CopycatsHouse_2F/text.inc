@@ -1,11 +1,11 @@
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale::
-    .string "{PLAYER}: Hi!\n"
-    .string "Do you like POKéMON?\p"
-    .string "{PLAYER}: Uh, no, I just asked you.\p"
-    .string "{PLAYER}: Huh?\n"
-    .string "You're strange!\p"
-    .string "COPYCAT: Hmm? Quit mimicking?\n"
-    .string "But, that's my favorite hobby!$"
+    .string "{PLAYER}: Hi.\n"
+    .string "You must like POKéMON.\p"
+    .string "{PLAYER}: He liked POKéMON too.\p"
+    .string "{PLAYER}: Pardon?\n"
+    .string "You think you're original?\p"
+    .string "COPYCAT: Haha.\n"
+    .string "Get out of my sight.$"
 
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
     .string "{PLAYER}: Hi.\n"
@@ -13,16 +13,12 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
     .string "{PLAYER}: No, not me.\n"
     .string "I asked you.\p"
     .string "{PLAYER}: Pardon?\n"
-    .string "You're weird!\l"
-    .string " \l"
-    .string "COPYCAT: Hmm? Quit mimicking?\l"
+    .string "You're weird!\p"
+    .string "COPYCAT: Hmm? Quit mimicking?\n"
     .string "But that's my favorite hobby!$"
 
 Text_MimicTeach::
-    .string "Oh wow!\n"
-    .string "A POKé DOLL!\p"
-    .string "For me?\n"
-    .string "Thank you!\p"
+    .string "Are you also a COPYCAT?\p"
     .string "You know what?\n"
     .string "I can teach the move MIMIC.$"
 
@@ -34,22 +30,18 @@ Text_MimicWhichMon::
     .string "Who's going to learn it?$"
 
 Text_MimicTaughtMale::
-    .string "{PLAYER}: Hi!\n"
-    .string "Thanks for earlier!\p"
-    .string "{PLAYER}: Pardon?\p"
-    .string "{PLAYER}: Is it that fun to mimic my\n"
-    .string "every move?\p"
-    .string "COPYCAT: You bet!\n"
-    .string "It's a scream!$"
-
-Text_MimicTaughtFemale::
-    .string "{PLAYER}: Hi!\n"
-    .string "Thanks for what you did for us.\p"
+    .string "{PLAYER}: Isn't copying someone\n"
+    .string "else fun?\p"
     .string "{PLAYER}: Pardon?\p"
     .string "{PLAYER}: Is it really that fun to\n"
-    .string "copy what I say and do?\p"
-    .string "COPYCAT: You bet!\n"
-    .string "It's a scream!$"
+    .string "copy what he said and did?$"
+
+Text_MimicTaughtFemale::
+    .string "{PLAYER}: Isn't copying someone\n"
+    .string "else fun?\p"
+    .string "{PLAYER}: Pardon?\p"
+    .string "{PLAYER}: Is it really that fun to\n"
+    .string "copy what he said and did?$"
 
 SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag::
     .string "にもつが　いっぱいね！$"

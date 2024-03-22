@@ -7,7 +7,7 @@ SaffronCity_Text_BossTakeTownForTeamRocket::
     .string "in the name of TEAM ROCKET!$"
 
 SaffronCity_Text_DontGetDefiantOrIllHurtYou::
-    .string "Don't get defiant!\n"
+    .string "Don't get unoriginal!\n"
     .string "Or I'll have to hurt you!$"
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
@@ -15,7 +15,7 @@ SaffronCity_Text_SaffronBelongsToTeamRocket::
 
 SaffronCity_Text_CriminalLifeMakesMeFeelAlive::
     .string "My life as a criminal makes me feel\n"
-    .string "so alive!$"
+    .string "so alive! Helps forget about my loss.$"
 
 SaffronCity_Text_WatchWhereYoureWalking::
     .string "Ow!\n"
@@ -24,11 +24,12 @@ SaffronCity_Text_WatchWhereYoureWalking::
 SaffronCity_Text_WeCanExploitMonsAroundWorld::
     .string "With SILPH under control, we can\n"
     .string "exploit POKéMON around the world!\p"
-    .string "We'll get stinking rich, yeahah!$"
+    .string "We'll get stinking rich, yeahah!\n"
+	.string "But money ca't buy happiness.$"
 
 SaffronCity_Text_YouBeatTeamRocket::
     .string "You beat TEAM ROCKET all alone?\n"
-    .string "That's amazing!$"
+    .string "Oh wow, how amazing. He did it before.$"
 
 SaffronCity_Text_SafeToGoOutAgain::
     .string "Yeah! TEAM ROCKET is gone!\n"
@@ -55,7 +56,7 @@ SaffronCity_Text_SawRocketBossEscaping::
 
 SaffronCity_Text_ImASecurityGuard::
     .string "I'm a security guard.\p"
-    .string "Suspicious kids I don't allow in!$"
+    .string "Imposterous kids I don't allow in!$"
 
 SaffronCity_Text_HesTakingASnooze::
     .string "…\n"
@@ -64,7 +65,7 @@ SaffronCity_Text_HesTakingASnooze::
 
 SaffronCity_Text_CitySign::
     .string "SAFFRON CITY\n"
-    .string "Shining, Golden Land of Commerce$"
+    .string "Come home.$"
 
 SaffronCity_Text_FightingDojo::
     .string "FIGHTING DOJO$"
@@ -102,7 +103,9 @@ SaffronCity_Text_SilphsLatestProduct::
 SaffronCity_Text_TrainerFanClubSign::
     .string "POKéMON TRAINER FAN CLUB\p"
     .string "Many TRAINERS have scribbled their\n"
-    .string "names on this sign.$"
+    .string "names on this sign.\p"
+	.string "You see the word “RED“ written\n"
+	.string "at the bottom.$"
 
 SaffronCity_Text_HowCanClubNotRecognizeLance::
     .string "This FAN CLUB…\n"
