@@ -1,4 +1,4 @@
-# Pokémon FireRed and LeafGreen
+﻿# Pokémon FireRed and LeafGreen
 
 [![Build Status][travis-badge]][travis]
 
@@ -14,8 +14,11 @@ He has been missing for many years. All that is known is that he was on top of a
 All of Kanto and Johto mourn Red and hate Fire for "replacing him". 
 Can you make it out alive?
 
-**Special thanks to:**
-Kurausukun and meister_anon for helping out with a lot of the scripting here.
+**Credits**
+
+Team Aqua's Hideout Community, Kurausukun and meister_anon - technical support.
+
+RavePossum, TheXaman, pokeemerald-expansion - making a very useful debug menu
 
 It builds the following ROMs:
 
