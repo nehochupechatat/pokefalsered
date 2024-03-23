@@ -38,6 +38,7 @@
 #include "constants/help_system.h"
 #include "constants/trainer_fan_club.h"
 #include "constants/mystery_gift.h"
+#include "config/debug.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
 	.set FALSE, 0
@@ -801,7 +802,7 @@ gStdScriptsEnd::
 
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
-
+	.include "data/scripts/debug.inc"
 @ Unused
 Text_WouldYouLikeToMixRecords::
 	.string "Would you like to mix records with\n"
@@ -856,12 +857,12 @@ Text_BagItemCanBeRegistered::
 @ Unused (email from R/S Rivals computer)
 Text_TrainerSchoolEmail::
 	.string "パソコンに\n"
-	.string "ポケモン　トレーナー　こうざの\l"
-	.string "メールが　きている！\p"
+	.string "ポケモン　トレ_ナ_　こうざの\l"
+	.string "メ_ルが　きている！\p"
 	.string "‥‥　‥‥　‥‥\p"
 	.string "ポケモンが　おぼえられる　わざは　4つ！\p"
 	.string "どんな　わざを　おぼえさせるかで\n"
-	.string "トレーナーの　じつりょくが　とわれます！\p"
+	.string "トレ_ナ_の　じつりょくが　とわれます！\p"
 	.string "‥‥　‥‥　‥‥$"
 
 Text_PlayerBootedUpPC::
@@ -957,19 +958,19 @@ Text_VoiceRangOutDontRunAway::
 
 @ Uncear what the below unused JP texts were for
 Text_IdLikeToSeeRequest::
-	.string "えっとー\n"
-	.string "{STR_VAR_2}が　みてみたいなー\p"
+	.string "えっと_\n"
+	.string "{STR_VAR_2}が　みてみたいな_\p"
 	.string "それも　{STR_VAR_1}{STR_VAR_3}\n"
-	.string "{STR_VAR_2}が　みてみたいなー$"
+	.string "{STR_VAR_2}が　みてみたいな_$"
 
 Text_ThankYouForShowingMe::
-	.string "わぁー　すごい！\n"
-	.string "{STR_VAR_1}{STR_VAR_3}{STR_VAR_2}だー！\p"
-	.string "ありがとー\n"
-	.string "また　よろしくねー！$"
+	.string "わぁ_　すごい！\n"
+	.string "{STR_VAR_1}{STR_VAR_3}{STR_VAR_2}だ_！\p"
+	.string "ありがと_\n"
+	.string "また　よろしくね_！$"
 
 Text_ThatsNotRight::
-	.string "それっ　ちがうよー！$"
+	.string "それっ　ちがうよ_！$"
 
 Text_ISee::
 	.string "そっか‥$"
@@ -1319,7 +1320,7 @@ EventScript_NoMoreRoomForPokemon::
 @ Test message!
 @ Welcome to the world of Pokémon!
 Text_TestMsg::
-	.string "テストよう　メッセージです！\n"
+	.string "テストよう　メッセ_ジです！\n"
 	.string "ポケモンの　せかいへ　ようこそ！$"
 
 	.include "data/scripts/fame_checker.inc"

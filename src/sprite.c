@@ -123,8 +123,8 @@ static const u8 sDmaOverErrorMsg[] =
     _(
     "DMA OVER\n"
     "DMAてんそう\n"
-    "リクエストテーブルが\n"
-    "オーバーしました"
+    "リクエストテ_ブルが\n"
+    "オ_バ_しました"
 );
 
 // Unreferenced data. Also unreferenced in R/S.

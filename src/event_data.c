@@ -106,13 +106,12 @@ void EnableNationalPokedex(void)
 
 bool32 IsNationalPokedexEnabled(void)
 {
-    /*if (gSaveBlock2Ptr->pokedex.nationalMagic != 0xB9)
-        return FALSE;
-    if (VarGet(VAR_0x404E) != 0x6258)
-        return FALSE;
-    if (!FlagGet(FLAG_SYS_NATIONAL_DEX))
-        return FALSE;*/
-    return TRUE;
+    if (gSaveBlock2Ptr->pokedex.nationalMagic == 0xB9
+            && VarGet(VAR_NATIONAL_DEX) == 0x6258
+            && FlagGet(FLAG_SYS_NATIONAL_DEX))
+        return TRUE;
+
+    return FALSE;
 }
 
 void DisableMysteryGift(void)
@@ -334,4 +333,30 @@ void ResetSpecialVars(void)
     gSpecialVar_TextColor = 0;
     gSpecialVar_PrevTextColor = 0;
     gSpecialVar_0x8014 = 0;
+}
+
+u16 VarGetIfExist(u16 id)
+{
+    u16 *ptr = GetVarPointer(id);
+    if (!ptr)
+        return 65535;
+    return *ptr;
+}
+
+u8 *GetFlagPointer(u16 id)
+{
+    if (id == 0)
+        return NULL;
+    else if (id < SPECIAL_FLAGS_START)
+        return &gSaveBlock1Ptr->flags[id / 8];
+    else
+        return &sSpecialFlags[(id - SPECIAL_FLAGS_START) / 8];
+}
+
+u8 FlagToggle(u16 id)
+{
+    u8 *ptr = GetFlagPointer(id);
+    if (ptr)
+        *ptr ^= 1 << (id & 7);
+    return 0;
 }
