@@ -3,20 +3,21 @@ SilphCo_4F_Text_CantYouSeeImHiding::
     .string "Can't you see I'm hiding?$"
 
 SilphCo_4F_Text_TeamRocketIsGone::
-    .string "Huh?\n"
-    .string "TEAM ROCKET is gone?$"
+    .string "TEAM ROCKET is gone.\n"
+	.string "But you didn't save the day.$"
 
 SilphCo_4F_Text_Grunt1Intro::
     .string "TEAM ROCKET has taken control\n"
-    .string "of SILPH CO.!$"
+    .string "of SILPH CO. again!\p"
+	.string "Like we are programmed to!$"
 
 SilphCo_4F_Text_Grunt1Defeat::
     .string "Arrgh!$"
 
 SilphCo_4F_Text_Grunt1PostBattle::
-    .string "Fwahahaha!\n"
-    .string "My BOSS has been after this place!$"
-
+    .string "You can face GIOVANNI on top,$"
+	.string "but that won't make you a hero.$"
+	
 SilphCo_4F_Text_RodneyIntro::
     .string "My POKéMON is my loyal servant.$"
 
@@ -25,19 +26,17 @@ SilphCo_4F_Text_RodneyDefeat::
     .string "You weak POKéMON!$"
 
 SilphCo_4F_Text_RodneyPostBattle::
-    .string "The doors are electronically\n"
-    .string "locked.\p"
-    .string "It takes a CARD KEY to open the\n"
-    .string "doors here.$"
+    .string "I hope you get lost here.$"
 
 SilphCo_4F_Text_Grunt2Intro::
-    .string "Intruder spotted!$"
+    .string "Knockoff kid spotted!$"
 
 SilphCo_4F_Text_Grunt2Defeat::
     .string "Who are you?$"
 
 SilphCo_4F_Text_Grunt2PostBattle::
-    .string "I better tell the BOSS on 11F!$"
+    .string "Your little disguise isn't\n"
+	.string "fooling anyone here. Scram!$"
 
 SilphCo_4F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"

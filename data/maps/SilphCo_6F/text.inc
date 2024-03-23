@@ -1,13 +1,14 @@
 SilphCo_6F_Text_RocketsTookOverBuilding::
     .string "The ROCKETS came and took over\n"
-    .string "the building!$"
+    .string "the building! Again!\p"
+	.string "We blame you.$"
 
 SilphCo_6F_Text_BetterGetBackToWork::
     .string "Well, better get back to work.$"
 
 SilphCo_6F_Text_HelpMePlease::
     .string "Oh dear, oh dear.\n"
-    .string "Help me, please!$"
+    .string "Help me, please! Not again!$"
 
 SilphCo_6F_Text_WeGotEngaged::
     .string "We got engaged.\n"
@@ -27,7 +28,8 @@ SilphCo_6F_Text_RocketsTryingToConquerWorld::
 
 SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
     .string "TEAM ROCKET ran away, and it's all\n"
-    .string "because of you!$"
+    .string "because of you!\p"
+	.string "You still aren't a hero.$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
     .string "They must have targeted SILPH for\n"
@@ -51,26 +53,28 @@ SilphCo_6F_Text_Grunt1PostBattle::
 SilphCo_6F_Text_TaylorIntro::
     .string "That rotten PRESIDENT!\p"
     .string "Serves him right for shipping me\n"
-    .string "off to the TIKSI BRANCH!\p"
-    .string "That's why TEAM ROCKET came after\n"
-    .string "us, I'm sure of it!$"
+    .string "off to the RUSSIAN BRANCH!\p"
+    .string "GOPNIKs came after us there!$"
 
 SilphCo_6F_Text_TaylorDefeat::
     .string "Shoot!$"
 
 SilphCo_6F_Text_TaylorPostBattle::
-    .string "TIKSI BRANCH?\n"
-    .string "It's in Russian no-man's-land!$"
+    .string "GOPNIKs?n"
+    .string "They stole our phones and assaulted us!$"
 
 SilphCo_6F_Text_Grunt2Intro::
-    .string "You dare betray TEAM ROCKET?$"
+    .string "You dare mock us?$"
 
 SilphCo_6F_Text_Grunt2Defeat::
-    .string "You traitor!$"
+    .string "You insolent little copy!\n"
+	.string "I wanted you to make my assistant!\p"
+	.string "I've always been a fan of his.\n"
+	.string "You look just like him."
 
 SilphCo_6F_Text_Grunt2PostBattle::
-    .string "If you stand for justice, you\n"
-    .string "betray us bad guys!$"
+    .string "If you copy his every move, you\n"
+    .string "stand with us bad guys!$"
 
 SilphCo_6F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"

@@ -192,40 +192,6 @@ static const struct RenewableHiddenItemData sRenewableHiddenItems[] = {
         }
     },
     {
-        .mapGroup = MAP_GROUP(MT_MOON_B1F),
-        .mapNum = MAP_NUM(MT_MOON_B1F),
-        .rare = {
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_TINY_MUSHROOM),
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_TINY_MUSHROOM_2),
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_TINY_MUSHROOM_3),
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_BIG_MUSHROOM),
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_BIG_MUSHROOM_2),
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_BIG_MUSHROOM_3),
-            NO_ITEM,
-            NO_ITEM
-        },
-        .uncommon = {
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_TINY_MUSHROOM),
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_TINY_MUSHROOM_2),
-            HIDDEN_ID(FLAG_HIDDEN_ITEM_MT_MOON_B1F_TINY_MUSHROOM_3),
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM
-        },
-        .common = {
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM,
-            NO_ITEM
-        }
-    },
-    {
         .mapGroup = MAP_GROUP(THREE_ISLAND_BERRY_FOREST),
         .mapNum = MAP_NUM(THREE_ISLAND_BERRY_FOREST),
         .rare = {

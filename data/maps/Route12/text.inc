@@ -15,11 +15,12 @@ Text_WantToUsePokeFlute::
     .string "Want to use the POKé FLUTE?$"
 
 Text_PlayedPokeFlute::
-    .string "{PLAYER} played the POKé FLUTE.$"
+    .string "{PLAYER} played the POKé FLUTE.\n"
+	.string "Just like he did.$"
 
 Route12_Text_NedIntro::
     .string "Yeah!\n"
-    .string "I got a bite here!$"
+    .string "I got a knockoff here!$"
 
 Route12_Text_NedDefeat::
     .string "Tch!\n"
@@ -27,7 +28,7 @@ Route12_Text_NedDefeat::
 
 Route12_Text_NedPostBattle::
     .string "Hang on!\n"
-    .string "My line's snagged!$"
+    .string "Our story's snagged!$"
 
 Route12_Text_ChipIntro::
     .string "Be patient.\n"
@@ -42,7 +43,7 @@ Route12_Text_ChipPostBattle::
 
 Route12_Text_JustinIntro::
     .string "I'm searching for a MOON STONE.\n"
-    .string "Have you found one?$"
+    .string "He never gave me any.$"
 
 Route12_Text_JustinDefeat::
     .string "Oww!$"
@@ -50,23 +51,24 @@ Route12_Text_JustinDefeat::
 Route12_Text_JustinPostBattle::
     .string "I could have made my POKéMON\n"
     .string "evolve with a MOON STONE.\p"
-    .string "I would have won then, I bet.$"
+    .string "I would have won against you then.\n"
+	.string "Screw you both!$"
 
 Route12_Text_LucaIntro::
     .string "Electricity is my specialty.\p"
-    .string "I don't know a thing about POKéMON\n"
-    .string "of the sea, though.$"
+    .string "You should zap sea POKéMON.\n"
+    .string "I told him that once.$"
 
 Route12_Text_LucaDefeat::
     .string "Unplugged!$"
 
 Route12_Text_LucaPostBattle::
-    .string "Water conducts electricity, so you\n"
-    .string "should zap sea POKéMON.$"
+    .string "I've been slacking off on the job\n"
+    .string "because our loss is too sad.$"
 
 Route12_Text_HankIntro::
-    .string "The FISHING FOOL versus POKéMON\n"
-    .string "KID!$"
+    .string "The FISHING FOOL versus the\n"
+    .string "KNOCKOFF of our boy!$"
 
 Route12_Text_HankDefeat::
     .string "Touch too much!$"
@@ -75,19 +77,20 @@ Route12_Text_HankPostBattle::
     .string "I guess you get to be good at\n"
     .string "what you like.\p"
     .string "Well, you beat me at POKéMON,\n"
-    .string "but you can't top me at fishing.$"
+    .string "but you can't top him at it.$"
 
 Route12_Text_ElliotIntro::
     .string "I love fishing, don't get me wrong.\p"
-    .string "But it'd be best if I also had more\n"
-    .string "work.$"
+    .string "But it'd be best if he also came back\n"
+    .string "to fish with me.$"
 
 Route12_Text_ElliotDefeat::
     .string "It's not easy…$"
 
 Route12_Text_ElliotPostBattle::
     .string "It's all right.\n"
-    .string "Losing doesn't bug me anymore.$"
+    .string "Losing doesn't bug me anymore.\l"
+	.string "After all, we already lost somebody.$"
 
 Route12_Text_AndrewIntro::
     .string "What's catching?\p"
@@ -115,30 +118,35 @@ Route12_Text_JesIntro::
 
 Route12_Text_JesDefeat::
     .string "JES: Oh, please, why couldn't you\n"
-    .string "let us win?$"
+    .string "let us win?\p"
+	.string "More so importantly, you're also\n"
+	.string "disrespecting our boy!\p$"
+	.string "He never got a chance to double battle!$"
 
 Route12_Text_JesPostBattle::
     .string "JES: Oh, GIA, forgive me,\n"
-    .string "my love!$"
+    .string "my love! I didn't wanna lose to a copy!$"
 
 Route12_Text_JesNotEnoughMons::
     .string "JES: GIA and I, we'll be\n"
     .string "together forever.\p"
     .string "We won't battle unless you have\n"
-    .string "two POKéMON of your own.$"
+    .string "a journey of your own.$"
 
 Route12_Text_GiaIntro::
     .string "GIA: Hey, JES…\p"
     .string "If we win, I'll marry you!$"
 
 Route12_Text_GiaDefeat::
-    .string "GIA: Oh, but why?$"
+    .string "GIA: Oh, but why are you copying his\n"
+	.string "every move?$"
 
 Route12_Text_GiaPostBattle::
     .string "GIA: JES, you silly!\n"
-    .string "You ruined this!$"
+    .string "You ruined this! I can't believe\l"
+	.string "you'd lose to a knockoff!$"
 
 Route12_Text_GiaNotEnoughMons::
     .string "GIA: I can't bear to battle\n"
     .string "without my JES!\p"
-    .string "Don't you have one more POKéMON?$"
+    .string "Don't you have any originality?$"

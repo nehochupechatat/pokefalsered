@@ -1,29 +1,31 @@
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-    .string "I wonder if SILPH is finished…$"
+    .string "I wonder if he is dead…$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
-    .string "Thanks for saving us!$"
+    .string "Thanks for saving us!\p"
+	.string "...But he did it first.$"
 
 SilphCo_8F_Text_Grunt1Intro::
-    .string "That's as far as you'll go!$"
+    .string "That's as far as you'll go!\n"
+	.string "You will not be him.$"
 
 SilphCo_8F_Text_Grunt1Defeat::
     .string "Not enough grit!$"
 
 SilphCo_8F_Text_Grunt1PostBattle::
-    .string "If you don't turn back…\n"
+    .string "If you don't quit playing…\n"
     .string "I'll call for backup!$"
 
 SilphCo_8F_Text_ParkerIntro::
-    .string "You're causing us problems!$"
+    .string "You're causing our world problems!$"
 
 SilphCo_8F_Text_ParkerDefeat::
     .string "Huh?\n"
     .string "I lost?$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-    .string "So, what do you think of SILPH\n"
-    .string "BUILDING's maze?$"
+    .string "So, what do you think?\n"
+    .string "Do you hate him?$"
 
 SilphCo_8F_Text_Grunt2Intro::
     .string "I am one of the four ROCKET\n"
@@ -45,5 +47,6 @@ SilphCo_8F_Text_ToRocketBossMonsAreTools::
     .string "cruel!\p"
     .string "To him, POKéMON are just tools to\n"
     .string "be used.\p"
-    .string "What will happen if that tyrant\n"
-    .string "takes over our company…$"
+    .string "That tyrant took over SILPH, but\n"
+    .string "he came along and stopped him.\p"
+	.string "You won't measure up, though. Quit.$"

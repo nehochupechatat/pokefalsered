@@ -8,7 +8,7 @@ SilphCo_2F_OnLoad::
 	end
 
 SilphCo_2F_EventScript_ThunderWaveTutor::
-	goto EventScript_ThunderWaveTutor
+	msgbox Text_ThunderWaveTeach
 	end
 
 SilphCo_2F_EventScript_FloorSign::

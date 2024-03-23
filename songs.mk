@@ -9,7 +9,7 @@ $(MID_SUBDIR)/mus_rocket_hideout.s: %.s: %.mid
 $(MID_SUBDIR)/mus_follow_me.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G131 -V068
 
-$(MID_SUBDIR)/mus_rs_vs_trainer.s: %.s: %.mid
+$(MID_SUBDIR)/mus_rs_vs_trainer.s: %.s: %.midw
 	$(MID) $< $@ -E -R$(STD_REVERB) -G011 -V080 -P1
 
 $(MID_SUBDIR)/mus_rs_vs_gym_leader.s: %.s: %.mid
@@ -91,7 +91,7 @@ $(MID_SUBDIR)/mus_route3.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V083
 
 $(MID_SUBDIR)/mus_route11.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G153 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V090
 
 $(MID_SUBDIR)/mus_pallet.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G159 -V100
@@ -181,7 +181,7 @@ $(MID_SUBDIR)/mus_poke_flute.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G165 -V048 -P5
 
 $(MID_SUBDIR)/mus_poke_mansion.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G148 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V090
 
 $(MID_SUBDIR)/mus_jigglypuff.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G135 -V068 -P5

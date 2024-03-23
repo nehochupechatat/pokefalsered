@@ -23,7 +23,7 @@ Text_SeismicTossTaught::
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
     .string "MOON STONE, huh?\p"
-    .string "He used it to get a CLEFABLE.\n"
+    .string "He used it to get a CLEFABLE.$"
 
 PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
     .string "February 27, 1996!\n"

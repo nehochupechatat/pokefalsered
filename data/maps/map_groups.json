@@ -54,8 +54,6 @@
   "gMapGroup_Dungeons": [
     "ViridianForest",
     "MtMoon_1F",
-    "MtMoon_B1F",
-    "MtMoon_B2F",
     "SSAnne_Exterior",
     "SSAnne_1F_Corridor",
     "SSAnne_2F_Corridor",
@@ -95,7 +93,6 @@
     "VictoryRoad_2F",
     "VictoryRoad_3F",
     "RocketHideout_B1F",
-    "RocketHideout_B2F",
     "RocketHideout_B3F",
     "RocketHideout_B4F",
     "RocketHideout_Elevator",

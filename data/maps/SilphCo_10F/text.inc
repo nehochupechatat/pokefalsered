@@ -1,5 +1,4 @@
 SilphCo_10F_Text_GruntIntro::
-    .string "Welcome to 10F!\n"
     .string "So good of you to join me!$"
 
 SilphCo_10F_Text_GruntDefeat::
@@ -10,14 +9,15 @@ SilphCo_10F_Text_GruntPostBattle::
     .string "one more floor.$"
 
 SilphCo_10F_Text_TravisIntro::
-    .string "Enough of your silly games!$"
+    .string "Enough of this silly game!$"
 
 SilphCo_10F_Text_TravisDefeat::
     .string "No continues left!$"
 
 SilphCo_10F_Text_TravisPostBattle::
-    .string "Are you satisfied with beating me?\n"
-    .string "Then go on home!$"
+    .string "You are not satisfied with beating\n"
+    .string "me. You want to be CHAMPION.\p"
+	.string "Please quit playing. You will never be him.$"
 
 SilphCo_10F_Text_WaaaImScared::
     .string "Waaaaa!\n"

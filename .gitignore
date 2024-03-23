@@ -10,6 +10,8 @@
 *.exe
 *.fwjpnfont
 *.gba
+*.ips
+*.bps
 !data/*.gba
 *.sgm
 *.sa1
