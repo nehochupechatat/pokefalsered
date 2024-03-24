@@ -97,35 +97,6 @@ SilphCo_7F_Text_Grunt2PostBattle::
     .string "Go on home before we all get\n"
     .string "even more pissed off!$"
 
-SilphCo_7F_Text_RivalWhatKeptYou::
-    .string "{RIVAL}: What kept you, {PLAYER}?\n"
-	.string "Too busy living someone else's life?$"
-
-SilphCo_7F_Text_RivalIntro::
-    .string "{RIVAL}: I knew you'd come here.\n"
-    .string "I know this story. It isn't yours.\p"
-    .string "Give up.\n"
-    .string "I'm begging you.$"
-
-SilphCo_7F_Text_RivalDefeat::
-    .string "Goddamn it!\n"
-    .string "You aren't ready to give up.$"
-
-SilphCo_7F_Text_RivalVictory::
-    .string "{RIVAL}“おまえなあ‥\p"
-    .string "こんな　うでまえじゃ\n"
-    .string "まだまだ‥\l"
-    .string "いちにんまえ　とは　いえないぜ$"
-
-SilphCo_7F_Text_RivalPostBattle::
-    .string "…{PLAYER}.\n"
-    .string "Are you really so selfish?\p"
-    .string "How dare you look like him, dress\n"
-    .string "like him, and act like him, when\l"
-    .string "you're absolutely nothing like him!\p"
-    .string "I won't give up.\p"
-    .string "I won't let you take this from him.$"
-
 SilphCo_7F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
     .string "7F$"
