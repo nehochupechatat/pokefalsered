@@ -31,8 +31,8 @@ RocketHideout_B4F_Text_Grunt2PostBattle::
 
 RocketHideout_B4F_Text_Grunt3Intro::
     .string "How can you not see the beauty of\n"
-    .string "our evil? He didn't either. You kids\l"
-	.string "are so stupid.$"
+    .string "our evil? He didn't either.\l"
+	.string "You kids are so stupid!$"
 
 RocketHideout_B4F_Text_Grunt3Defeat::
     .string "Ayaya!$"

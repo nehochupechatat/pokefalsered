@@ -100,7 +100,7 @@ CeladonCity_GameCorner_Text_WatchReelsClosely::
     .string "closely.$"
 
 CeladonCity_GameCorner_Text_GruntIntro::
-    .string "You're not going to stop us, because!\n"
+    .string "You're not going to stop us, because\n"
     .string "you're not him! Go away, or else!$"
 
 CeladonCity_GameCorner_Text_GruntDefeat::
