@@ -5,12 +5,11 @@ SilphCo_2F_MapScripts::
 	.byte 0
 
 SilphCo_2F_OnLoad::
-	call_if_unset FLAG_SILPH_2F_DOOR_1, EventScript_Close2FDoor1
-	call_if_unset FLAG_SILPH_2F_DOOR_2, EventScript_Close2FDoor2
 	end
 
 SilphCo_2F_EventScript_ThunderWaveTutor::
 	msgbox Text_ThunderWaveTeach
+	releaseall
 	end
 
 SilphCo_2F_EventScript_FloorSign::
@@ -40,13 +39,13 @@ SilphCo_2F_EventScript_Grunt2::
 SilphCo_7F_EventScript_RivalTriggerTop::
 	lockall
 	setvar VAR_TEMP_1, 0
-	call_if_unset FLAG_HIDE_SILPH_RIVAL, goto SilphCo_7F_EventScript_RivalScene
+	call_if_unset FLAG_HIDE_SILPH_RIVAL, SilphCo_7F_EventScript_RivalScene
 	end
 
 SilphCo_7F_EventScript_RivalTriggerBottom::
 	lockall
 	setvar VAR_TEMP_1, 1
-	call_if_unset FLAG_HIDE_SILPH_RIVAL, goto SilphCo_7F_EventScript_RivalScene
+	call_if_unset FLAG_HIDE_SILPH_RIVAL, SilphCo_7F_EventScript_RivalScene
 	end
 
 SilphCo_7F_EventScript_RivalScene::
@@ -119,18 +118,38 @@ SilphCo_7F_Movement_RivalApproachTop::
 
 SilphCo_7F_Movement_RivalExitTop::
 	walk_right
-	walk_right
-	walk_right
 	walk_up
 	walk_right
-	delay_16
+	walk_right
 	step_end
 
 SilphCo_7F_Movement_RivalExitBottom::
 	walk_right
-	walk_right
-	walk_right
 	walk_up
 	walk_right
-	delay_16
+	walk_right
 	step_end
+
+SilphCo_3F_EventScript_WorkerM::
+	lock
+	faceplayer
+	goto_if_ge VAR_MAP_SCENE_SILPH_CO_11F, 1, SilphCo_3F_EventScript_WorkerMRocketsGone
+	msgbox SilphCo_3F_Text_WhatAmIToDo
+	release
+	end
+
+SilphCo_3F_EventScript_WorkerMRocketsGone::
+	msgbox SilphCo_3F_Text_YouAndYourMonsSavedUs
+	release
+	end
+
+
+SilphCo_3F_EventScript_Jose::
+	trainerbattle_single TRAINER_SCIENTIST_JOSE, SilphCo_3F_Text_JoseIntro, SilphCo_3F_Text_JoseDefeat
+	msgbox SilphCo_3F_Text_JosePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SilphCo_3F_EventScript_Grunt::
+	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_25, SilphCo_3F_Text_GruntIntro, SilphCo_3F_Text_GruntDefeat
+	msgbox SilphCo_3F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
+	end

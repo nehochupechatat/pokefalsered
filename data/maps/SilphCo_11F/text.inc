@@ -39,7 +39,7 @@ SilphCo_11F_Text_ThanksForRescuingUs::
     .string "We, from the PRESIDENT down in KANTO,\n"
     .string "are indebted to you.\p"
 	.string "Wait, you aren't him.\n"
-	.string "Nevermind."
+	.string "Nevermind.$"
 
 SilphCo_11F_Text_GiovanniIntro::
     .string "Ah, {PLAYER}!\n"
@@ -90,5 +90,5 @@ SilphCo_11F_Text_MonitorHasMonsOnIt::
 
 SilphCo_11F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
-    .string "11F$"
+    .string "6F$"
 

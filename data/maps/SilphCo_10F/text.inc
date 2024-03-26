@@ -17,7 +17,8 @@ SilphCo_10F_Text_TravisDefeat::
 SilphCo_10F_Text_TravisPostBattle::
     .string "You are not satisfied with beating\n"
     .string "me. You want to be CHAMPION.\p"
-	.string "Please quit playing. You will never be him.$"
+	.string "Please quit playing.\n"
+	.string "You will never be him.$"
 
 SilphCo_10F_Text_WaaaImScared::
     .string "Waaaaa!\n"

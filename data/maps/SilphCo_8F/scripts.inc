@@ -3,7 +3,6 @@ SilphCo_8F_MapScripts::
 	.byte 0
 
 SilphCo_8F_OnLoad::
-	call_if_unset FLAG_SILPH_8F_DOOR, EventScript_Close8FDoor
 	end
 
 SilphCo_8F_EventScript_WorkerM::

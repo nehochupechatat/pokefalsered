@@ -59,8 +59,8 @@ Text_Blueprints::
 	.string "It's filled with diagrams and text.$"
 
 Text_Painting::
-	.string "It's a pretty picture of a POKéMON.\n"
-	.string "It looks like it's feeling good.$"
+	.string "It's a pretty picture of a boy.\n"
+	.string "He looks strong and confident.$"
 
 Text_PowerPlantMachine::
 	.string "What could this machine be?\n"
@@ -71,8 +71,8 @@ Text_Telephone::
 	.string "Better not use it.$"
 
 Text_Computer::
-	.string "It's all complicated words and\n"
-	.string "numbers that make no sense…$"
+	.string "It's all functions and\n"
+	.string "numbers that make sense.$"
 
 Text_AdvertisingPoster::
 	.string "It's an advertising poster about\n"
@@ -113,7 +113,7 @@ Text_ImpressiveMachine::
 
 Text_VideoGame::
 	.string "It's the latest video game!\n"
-	.string "It sure looks fun!$"
+	.string "It is not about you.$"
 
 Text_Burglary::
 	.string "There are obvious signs of burglary\n"

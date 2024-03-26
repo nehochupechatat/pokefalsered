@@ -15,7 +15,7 @@ SilphCo_4F_Text_Grunt1Defeat::
     .string "Arrgh!$"
 
 SilphCo_4F_Text_Grunt1PostBattle::
-    .string "You can face GIOVANNI on top,$"
+    .string "You can face GIOVANNI on top,\n"
 	.string "but that won't make you a hero.$"
 	
 SilphCo_4F_Text_RodneyIntro::
@@ -40,5 +40,5 @@ SilphCo_4F_Text_Grunt2PostBattle::
 
 SilphCo_4F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
-    .string "4F$"
+    .string "3F$"
 

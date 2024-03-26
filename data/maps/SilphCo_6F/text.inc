@@ -60,8 +60,9 @@ SilphCo_6F_Text_TaylorDefeat::
     .string "Shoot!$"
 
 SilphCo_6F_Text_TaylorPostBattle::
-    .string "GOPNIKs?n"
-    .string "They stole our phones and assaulted us!$"
+    .string "GOPNIKs?\n"
+    .string "They stole our phones and\l"
+	.string "assaulted us!$"
 
 SilphCo_6F_Text_Grunt2Intro::
     .string "You dare mock us?$"
@@ -70,7 +71,7 @@ SilphCo_6F_Text_Grunt2Defeat::
     .string "You insolent little copy!\n"
 	.string "I wanted you to make my assistant!\p"
 	.string "I've always been a fan of his.\n"
-	.string "You look just like him."
+	.string "You look just like him.$"
 
 SilphCo_6F_Text_Grunt2PostBattle::
     .string "If you copy his every move, you\n"

@@ -80,8 +80,8 @@ SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll::
     .string "Huh? It's only a doll!$"
 
 SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket::
-    .string "A game with MARIO wearing a bucket\n"
-    .string "on his head!$"
+    .string "A JRPG about KANTO!\n"
+    .string "It's not your game.$"
 
 SaffronCity_CopycatsHouse_2F_Text_MySecrets::
     .string "…\p"

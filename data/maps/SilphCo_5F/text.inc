@@ -20,11 +20,14 @@ SilphCo_5F_Text_Grunt1Defeat::
 SilphCo_5F_Text_Grunt1PostBattle::
     .string "It's not smart to pick a fight with\n"
     .string "TEAM ROCKET!\p"
-	.string "He may have outsmarted us, but you won't!$"
+	.string "He may have outsmarted us,\n"
+	.string "but you won't!$"
+	
 
 SilphCo_5F_Text_BeauIntro::
-    .string "We are working on a better MASTER BALL on\n"
-    .string "this floor! They ain't for you, though!$"
+    .string "We are working on a better MASTER\n"
+    .string "BALL on this floor!\l"
+	.string "They ain't for you, though!$"
 
 SilphCo_5F_Text_BeauDefeat::
     .string "Dang!\n"
@@ -43,7 +46,7 @@ SilphCo_5F_Text_DaltonDefeat::
     .string "Oh, goodness!$"
 
 SilphCo_5F_Text_DaltonPostBattle::
-    .string "You're only on 5F.\n"
+    .string "You're only on 3F.\n"
     .string "It's a long way to my BOSS!$"
 
 SilphCo_5F_Text_Grunt2Intro::
@@ -59,8 +62,9 @@ SilphCo_5F_Text_Grunt2PostBattle::
 
 SilphCo_5F_Text_PorygonFirstVRMon::
     .string "It's a POKéMON REPORT!\p"
-    .string "POKéMON TRAINER RED has went missing.\n"
-    .string "He was last seen heading to a mountain.$"
+    .string "PKMN TRAINER RED has went missing.\n"
+    .string "He was last seen heading to a\l"
+	.string "mountain.$"
 
 SilphCo_5F_Text_Over350TechniquesConfirmed::
     .string "It's a POKéMON REPORT!\p"
@@ -77,9 +81,9 @@ SilphCo_5F_Text_FloorSign::
     .string "5F$"
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::
-    .string "Those thugs that took over our\n"
-    .string "building…\p"
+    .string "TEAM ROCKET took over our\n"
+    .string "building again…\p"
     .string "Their BOSS said he was looking for\n"
-    .string "strong POKéMON.\p"
+    .string "a worthy opponent, like the boy.\p"
     .string "I hope our PRESIDENT managed to\n"
     .string "avoid trouble…$"

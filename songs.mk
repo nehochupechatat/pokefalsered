@@ -16,7 +16,7 @@ $(MID_SUBDIR)/mus_rs_vs_gym_leader.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G010 -V080
 
 $(MID_SUBDIR)/mus_victory_road.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G154 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V090
 
 $(MID_SUBDIR)/mus_cycling.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G141 -V090

@@ -40,7 +40,7 @@ SilphCo_8F_Text_Grunt2PostBattle::
 
 SilphCo_8F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
-    .string "8F$"
+    .string "5F$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
     .string "TEAM ROCKET's BOSS is terribly\n"
