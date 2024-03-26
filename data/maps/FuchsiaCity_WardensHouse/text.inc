@@ -1,15 +1,19 @@
 FuchsiaCity_WardensHouse_Text_HifFuffHefifoo::
-    .string "WARDEN: Hif fuff hefifoo!\p"
-    .string "Ha lof ha feef ee hafahi ho.\n"
-    .string "Heff hee fwee!$"
+    .string "WARDEN: Hi!\p"
+    .string "Let me guess, you're here for\n"
+    .string "HM03 and HM04?$"
 
 FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo::
-    .string "Ah howhee ho hoo!\n"
-    .string "Eef ee hafahi ho!$"
+    .string "Well, I don't give those out\n"
+    .string "to any wannabe trainer children.\p"
+	.string "HM04 contains STRENGTH.\n"
+	.string "Something you lack and'll never learn.\p"
+	.string "Now scram and give up on your\n"
+	.string "journey. Ha!$"
 
 FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo::
-    .string "Ha?\n"
-    .string "He ohay heh ha hoo ee haheh!$"
+    .string "No?\n"
+    .string "Good. Quit playing right now.$"
 
 FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden::
     .string "{PLAYER} gave the GOLD TEETH\n"
@@ -39,16 +43,18 @@ FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
     .string "trouble.$"
 
 FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
-    .string "{PLAYER} received HM04\n"
-    .string "from the WARDEN.$"
+    .string "{PLAYER} took the HM04!$"
+
+FuchsiaCity_WardensHouse_Text_ReceivedHM03FromWarden::
+    .string "{PLAYER} took the HM03!$"
 
 FuchsiaCity_WardensHouse_Text_ExplainStrength::
-    .string "WARDEN: Inside HM04 you'll find\n"
-    .string "STRENGTH.\p"
-    .string "It lets POKéMON move boulders when\n"
-    .string "you're outside of battle.\p"
-    .string "Oh yes, did you find the SECRET\n"
-    .string "HOUSE in the SAFARI ZONE?$"
+    .string "WARDEN: Stealing our HMs, huh?\p"
+    .string "Well, inside HM04, you'll find\n"
+    .string "something you lack.\l"
+    .string "It lets POKéMON move boulders.\p"
+    .string "HM03 lets you get to CINNABAR.\n"
+    .string "It erupted, but there is a new tunnel.$"
 
 @ Unused
 FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff::

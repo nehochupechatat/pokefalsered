@@ -7,11 +7,11 @@ FuchsiaCity_Text_SafariZoneZooInFront::
     .string "The SAFARI ZONE has a zoo in front\n"
     .string "of the entrance.\p"
     .string "Out back is the SAFARI GAME for\n"
-    .string "catching POKéMON.$"
+    .string "catching POKéMON. He was a regular.$"
 
 FuchsiaCity_Text_WheresSara::
-    .string "ERIK: Where's SARA?\n"
-    .string "I said I'd meet her here.$"
+    .string "ERIK: Where's he?\n"
+    .string "He's been here before.$"
 
 FuchsiaCity_Text_ItemBallInThere::
     .string "That item ball in there…\n"
@@ -21,7 +21,7 @@ FuchsiaCity_Text_ItemBallInThere::
 
 FuchsiaCity_Text_CitySign::
     .string "FUCHSIA CITY\n"
-    .string "Behold! It's Passion Pink!$"
+    .string "Another city he was at before you.$"
 
 FuchsiaCity_Text_SafariZoneSign::
     .string "POKéMON PARADISE\n"
@@ -47,34 +47,31 @@ FuchsiaCity_Text_GymSign::
 
 FuchsiaCity_Text_ChanseySign::
     .string "Name: CHANSEY\n"
-    .string "Catching one is all up to chance.$"
+    .string "Come home.$"
 
 FuchsiaCity_Text_VoltorbSign::
     .string "Name: VOLTORB\n"
-    .string "The very image of a POKé BALL.$"
+    .string "Come home.$"
 
 FuchsiaCity_Text_KangaskhanSign::
-    .string "Name: KANGASKHAN\p"
-    .string "A maternal POKéMON that raises its\n"
-    .string "young in a pouch on its belly.$"
+    .string "Name: KANGASKHAN\n"
+    .string "Come home.$"
 
 FuchsiaCity_Text_SlowpokeSign::
     .string "Name: SLOWPOKE\n"
-    .string "Friendly and very slow moving.$"
+    .string "Come home.$"
 
 FuchsiaCity_Text_LaprasSign::
     .string "Name: LAPRAS\n"
-    .string "AKA the king of the seas.$"
+    .string "Come home.$"
 
 FuchsiaCity_Text_OmanyteSign::
     .string "Name: OMANYTE\n"
-    .string "An extremely rare POKéMON that was\l"
-    .string "regenerated from a fossil.$"
+    .string "Come home.$"
 
 FuchsiaCity_Text_KabutoSign::
     .string "Name: KABUTO\n"
-    .string "An extremely rare POKéMON that was\l"
-    .string "regenerated from a fossil.$"
+    .string "Come home.$"
 
 @ Unused. May have been meant to be the placeholder text for the zoo mons, similar to RB's "!" text
 FuchsiaCity_Text_Ellipsis::
@@ -107,6 +104,6 @@ Text_SubstituteTaught::
 FuchsiaCity_Text_MyFatherIsGymLeader::
     .string "My father is the GYM LEADER of\n"
     .string "this town.\p"
-    .string "I'm training to use POISON POKéMON\n"
-    .string "as well as my father.$"
+    .string "I'm training to use POKéMON\n"
+    .string "as well as the boy did.$"
 

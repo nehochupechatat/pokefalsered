@@ -11,15 +11,14 @@ FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable::
     .string "extinct POKéMON.$"
 
 FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden::
-    .string "WARDEN SLOWPOKE came in, but\n"
-    .string "I couldn't understand him.\p"
-    .string "I think he's got a speech problem!$"
+    .string "Hi, regular visitor!\n"
+    .string "Have you caught anything new?$"
 
 FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone::
     .string "WARDEN SLOWPOKE is running a\n"
     .string "promotion campaign right now.\p"
-    .string "Try to get to the farthest corner\n"
-    .string "of the SAFARI ZONE.\p"
+    .string "Find the boy on a mountain after\n"
+	.string "becoming CHAMPION.\p"
     .string "If you can make it, you'll win a\n"
     .string "very convenient prize.$"
 

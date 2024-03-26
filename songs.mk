@@ -169,7 +169,7 @@ $(MID_SUBDIR)/mus_mt_moon.s: %.s: %.mid
 	$(MID) $< $@ -E -R70 -G168 -V090
 
 $(MID_SUBDIR)/mus_school.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G012 -V100 -P1
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V100
 
 $(MID_SUBDIR)/mus_poke_tower.s: %.s: %.mid
 	$(MID) $< $@ -E -R70 -G168 -V090

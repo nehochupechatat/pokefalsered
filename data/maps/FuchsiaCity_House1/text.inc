@@ -1,7 +1,8 @@
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
     .string "The SAFARI ZONE's WARDEN is old, \n"
     .string "but he's still very much active.\p"
-    .string "All his teeth are false, though.$"
+    .string "All his teeth are false, though.\n"
+	.string "Just like your identity is.$"
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
     .string "Hmm?\n"

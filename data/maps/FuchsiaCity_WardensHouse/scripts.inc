@@ -13,19 +13,16 @@ FuchsiaCity_WardensHouse_EventScript_Warden::
 	end
 
 FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	playfanfare MUS_OBTAIN_TMHM
-	message FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden
-	waitmessage
-	waitfanfare
-	msgbox FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth
-	call EventScript_RestorePrevTextColor
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, FuchsiaCity_WardensHouse_EventScript_WardenThanksMale
-	call_if_eq VAR_RESULT, FEMALE, FuchsiaCity_WardensHouse_EventScript_WardenThanksFemale
 	giveitem_msg FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden, ITEM_HM04
 	setflag FLAG_GOT_HM04
-	removeitem ITEM_GOLD_TEETH
+	setflag FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_HM04
+	release
+	end
+	
+FuchsiaCity_WardensHouse_EventScript_GetSurf::
+	giveitem_msg FuchsiaCity_WardensHouse_Text_ReceivedHM03FromWarden, ITEM_HM03
+	setflag FLAG_GOT_HM03
+	setflag FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_HM03
 	release
 	end
 
