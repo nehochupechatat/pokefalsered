@@ -401,7 +401,17 @@ CeruleanCave_B1F_EventScript_ItemUltraBall::
 FuchsiaCity_WardensHouse_EventScript_ItemRareCandy::
 	finditem ITEM_RARE_CANDY
 	end
+	
+FuchsiaCity_WardensHouse_EventScript_ItemHM03::
+	finditem ITEM_HM03
+	setflag FLAG_GOT_HM03
+	end
 
+FuchsiaCity_WardensHouse_EventScript_ItemHM04::
+	finditem ITEM_HM04
+	setflag FLAG_GOT_HM03
+	end
+	
 TwoIsland_EventScript_ItemRevive::
 	finditem ITEM_REVIVE
 	end
