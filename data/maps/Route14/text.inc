@@ -1,9 +1,9 @@
 Route14_Text_CarterIntro::
     .string "You need to use TMs to teach good\n"
-    .string "moves to POKéMON.$"
+    .string "moves to POKéMON. He did so.$"
 
 Route14_Text_CarterDefeat::
-    .string "Not good enough quite yet.$"
+    .string "You're not good enough.$"
 
 Route14_Text_CarterPostBattle::
     .string "You have some HMs, right? POKéMON\n"
@@ -11,14 +11,15 @@ Route14_Text_CarterPostBattle::
 
 Route14_Text_MitchIntro::
     .string "My bird POKéMON should be ready\n"
-    .string "for battle.$"
+    .string "to wipe the floor with kids like you.$"
 
 Route14_Text_MitchDefeat::
-    .string "Not ready yet!$"
+    .string "How come you're just like him?$"
 
 Route14_Text_MitchPostBattle::
-    .string "My bird POKéMON need to learn\n"
-    .string "better moves.$"
+    .string "Tell me your secrets!\n"
+    .string "How do you manage to be like him\l"
+	.string "in absolutely every way?$"
 
 Route14_Text_BeckIntro::
     .string "They have TMs on sale at the\n"
@@ -36,34 +37,35 @@ Route14_Text_BeckPostBattle::
     .string "of the move.$"
 
 Route14_Text_MarlonIntro::
-    .string "Have you taught your bird POKéMON\n"
-    .string "how to FLY?\p"
-    .string "You'll be able to soar with it into\n"
-    .string "the sky!$"
+    .string "You'll should soar with CHARIZARD\n"
+    .string "into the sky!\p"
+	.string "Maybe you'll even head to the\n"
+	.string "mountains and meet him.$"
 
 Route14_Text_MarlonDefeat::
     .string "Shot down in flames!$"
 
 Route14_Text_MarlonPostBattle::
-    .string "Bird POKéMON are my one true love.\n"
-    .string "I don't want to raise anything else.$"
+    .string "POKéMON like his are my one true love.\n"
+    .string "But I can only catch birds for now.$"
 
 Route14_Text_DonaldIntro::
     .string "Have you heard the legend of the\n"
-    .string "winged mirages?$"
+    .string "trainer from PALLET?$"
 
 Route14_Text_DonaldDefeat::
     .string "Why?\n"
-    .string "Why'd I lose?$"
+    .string "Why'd I lose? You're not him!$"
 
 Route14_Text_DonaldPostBattle::
-    .string "Well, the winged mirages are the\n"
-    .string "legendary bird POKéMON.\p"
-    .string "There are three of them: ARTICUNO,\n"
-    .string "ZAPDOS, and MOLTRES.$"
+    .string "Well, the trainer from PALLET was our\n"
+    .string "PRIDE and CHAMPION.\p"
+    .string "Then he went to a mountain one day and\n"
+    .string "vanished. Please quit mocking this.\l"
+	.string "This is not funny.$"
 
 Route14_Text_BennyIntro::
-    .string "I'm not into it, but okay.\n"
+    .string "I'm worried, but okay.\n"
     .string "Let's go!$"
 
 Route14_Text_BennyDefeat::
@@ -71,7 +73,8 @@ Route14_Text_BennyDefeat::
 
 Route14_Text_BennyPostBattle::
     .string "Winning, losing… It's insignificant\n"
-    .string "under this huge sky.$"
+    .string "when even the best will die on a\l"
+	.string "snowy mountain.$"
 
 Route14_Text_LukasIntro::
     .string "C'mon, c'mon.\n"
@@ -79,34 +82,36 @@ Route14_Text_LukasIntro::
 
 Route14_Text_LukasDefeat::
     .string "Arrg!\n"
-    .string "Lost! Get lost!$"
+    .string "You will never be him! Get lost!$"
 
 Route14_Text_LukasPostBattle::
-    .string "What, what, what?\n"
+    .string "What, what, what, wannabe?\n"
     .string "What do you want still?$"
 
 Route14_Text_IsaacIntro::
-    .string "I need to burn some time.\n"
+    .string "I need to forget about our loss.\n"
     .string "Shut up and battle.$"
 
 Route14_Text_IsaacDefeat::
     .string "What?\n"
-    .string "You!?$"
+    .string "You wannabe!$"
 
 Route14_Text_IsaacPostBattle::
-    .string "Raising POKéMON is a drag, man.$"
+    .string "Raising POKéMON is a drag, man.\p"
+	.string "Almost as if this is all a game\n"
+	.string "where we all lose in the end.$"
 
 Route14_Text_GeraldIntro::
-    .string "We ride out here because of the\n"
-    .string "wide-open spaces.$"
+    .string "We ride out here because they\n"
+    .string "put us here.$"
 
 Route14_Text_GeraldDefeat::
     .string "Wipeout!$"
 
 Route14_Text_GeraldPostBattle::
-    .string "It's cool you made your POKéMON so\n"
-    .string "strong.\p"
-    .string "Might is right!\n"
+    .string "It's uncool that you made your\n"
+    .string "entire identity to just copy his.\p"
+    .string "Disrespecting his honor is wrong!\n"
     .string "And you know it!$"
 
 Route14_Text_MalikIntro::
@@ -125,15 +130,15 @@ Route14_Text_RouteSign::
     .string "West to FUCHSIA CITY$"
 
 Route14_Text_KiriIntro::
-    .string "KIRI: JAN, let's try really,\n"
-    .string "really hard together.$"
+    .string "KIRI: JAN, he's back, he's back!\n"
+    .string "Let's try to attract his attention.$"
 
 Route14_Text_KiriDefeat::
     .string "KIRI: Whimper…\n"
-    .string "We lost, didn't we?$"
+    .string "You aren't him, are you?$"
 
 Route14_Text_KiriPostBattle::
-    .string "KIRI: Did we lose because of me?$"
+    .string "KIRI: Please get out of our sight.$"
 
 Route14_Text_KiriNotEnoughMons::
     .string "KIRI: We can battle if you have\n"
@@ -141,15 +146,18 @@ Route14_Text_KiriNotEnoughMons::
 
 Route14_Text_JanIntro::
     .string "JAN: KIRI, here we go!\n"
-    .string "We have to try hard!$"
-
+    .string "He's back!\p"
+	.string "Please come back to PALLET!\n"
+	.string "Everyone misses you!$"
+	
 Route14_Text_JanDefeat::
     .string "JAN: Eeeeh!\n"
-    .string "No fair!$"
+    .string "What kind of sick joke is this?$"
 
 Route14_Text_JanPostBattle::
     .string "JAN: KIRI, don't cry!\n"
-    .string "We'll just try harder next time.$"
+    .string "That guy was just a meanie.\l"
+	.string "..You, stop making fun of our loss!$"
 
 Route14_Text_JanNotEnoughMons::
     .string "JAN: You want to battle?\n"

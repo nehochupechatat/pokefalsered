@@ -4,7 +4,7 @@ FuchsiaCity_WardensHouse_MapScripts::
 FuchsiaCity_WardensHouse_EventScript_Warden::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_HM04, FuchsiaCity_WardensHouse_EventScript_ExplainStrength
+	goto_if_set FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_HM04, FuchsiaCity_WardensHouse_EventScript_ExplainStrength
 	goto_if_set FLAG_HIDE_SAFARI_ZONE_WEST_GOLD_TEETH, FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth
 	msgbox FuchsiaCity_WardensHouse_Text_HifFuffHefifoo, MSGBOX_YESNO
 	call_if_eq VAR_RESULT, YES, FuchsiaCity_WardensHouse_EventScript_WardenYes
