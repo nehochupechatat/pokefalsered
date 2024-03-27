@@ -37,7 +37,7 @@ Route14_Text_BeckPostBattle::
     .string "of the move.$"
 
 Route14_Text_MarlonIntro::
-    .string "You'll should soar with CHARIZARD\n"
+    .string "You should soar with CHARIZARD\n"
     .string "into the sky!\p"
 	.string "Maybe you'll even head to the\n"
 	.string "mountains and meet him.$"

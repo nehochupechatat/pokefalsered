@@ -1,8 +1,7 @@
 FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
     .string "You can't become a good TRAINER\n"
     .string "with just one strong POKéMON.\p"
-    .string "But raising many POKéMON evenly\n"
-    .string "is no easy task, either.$"
+    .string "That's why he was the best.$"
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
     .string "There's a narrow trail west of\n"
