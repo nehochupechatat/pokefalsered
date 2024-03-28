@@ -7,18 +7,19 @@ Route20_Text_BarryDefeat::
 
 Route20_Text_BarryPostBattle::
     .string "I wish I could ride my POKéMON.\n"
-    .string "I bet you're not tired.$"
+    .string "I bet you're tired? Good!$"
 
 Route20_Text_ShirleyIntro::
-    .string "SEAFOAM is a quiet getaway.\n"
-    .string "I'm vacationing here.$"
+    .string "SEAFOAM is a quiet getaway\n"
+    .string "from the sadness of KANTO.\l"
+	.string "I'm vacationing here.$"
 
 Route20_Text_ShirleyDefeat::
-    .string "Quit it!$"
+    .string "Quit playing! You're a FAKE!$"
 
 Route20_Text_ShirleyPostBattle::
     .string "There's a huge cavern underneath\n"
-    .string "this island.$"
+    .string "this island. He's not there, though.$"
 
 Route20_Text_TiffanyIntro::
     .string "I love floating with the fishes\n"
@@ -28,13 +29,15 @@ Route20_Text_TiffanyDefeat::
     .string "Yowch!$"
 
 Route20_Text_TiffanyPostBattle::
-    .string "Want to float with me?$"
+    .string "Want to float with me?\n"
+	.string "It should help forget about our\l"
+	.string "tragedy.$"
 
 Route20_Text_IreneIntro::
     .string "Are you on vacation, too?$"
 
 Route20_Text_IreneDefeat::
-    .string "No mercy at all!$"
+    .string "No mercy at all for fakes like you!$"
 
 Route20_Text_IrenePostBattle::
     .string "SEAFOAM used to be a single island\n"
@@ -48,7 +51,9 @@ Route20_Text_DeanDefeat::
 
 Route20_Text_DeanPostBattle::
     .string "I should've been buffing up my\n"
-    .string "POKéMON, not me!$"
+    .string "POKéMON, not me!\p"
+	.string "Quit wearing his face or I'll\n"
+	.string "kick you in the hindquarters!$"
 
 Route20_Text_DarrinIntro::
     .string "Why are you riding a POKéMON?\n"
@@ -91,15 +96,15 @@ Route20_Text_MissyDefeat::
     .string "I'm so disappointed!$"
 
 Route20_Text_MissyPostBattle::
-    .string "POKéMON have taken over an\n"
-    .string "abandoned mansion on CINNABAR.\p"
-    .string "They call it the POKéMON MANSION\n"
-    .string "now.$"
+    .string "A new tunnel was dug out by BLAINE\n"
+    .string "on CINNABAR.\p"
+    .string "He calls it the POKéMON TUNNEL.\n"
+	.string "It is also a graveyard.$"
 
 Route20_Text_MelissaIntro::
-    .string "CINNABAR, in the west, has a LAB\n"
+    .string "CINNABAR, in the west, had a LAB\n"
     .string "for POKéMON.\p"
-    .string "My daddy works there.$"
+    .string "Now it doesn't anymore.$"
 
 Route20_Text_MelissaDefeat::
     .string "Wait!\n"
@@ -107,8 +112,9 @@ Route20_Text_MelissaDefeat::
 
 Route20_Text_MelissaPostBattle::
     .string "CINNABAR is a volcanic island.\p"
-    .string "I heard it rose out of the sea\n"
-    .string "when a volcano erupted.$"
+    .string "All the years of scientific\n"
+    .string "research were destroyed when\l"
+	.string "a volcano erupted. I blame you.$"
 
 Route20_Text_SeafoamIslands::
     .string "SEAFOAM ISLANDS$"
@@ -116,5 +122,4 @@ Route20_Text_SeafoamIslands::
 Route20_Text_MistyTrainsHere::
     .string "Strong TRAINERS and WATER POKéMON\n"
     .string "are common sights in these parts.\p"
-    .string "They say that MISTY of the\n"
-    .string "CERULEAN GYM trains here.$"
+    .string "They say that he trains here.$"

@@ -65,13 +65,12 @@ CinnabarIsland_Text_MyPalsBoatArrived::
     .string "CINNABAR to pick me up.$"
 
 CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
-    .string "Hey, wasn't that a long cruise?\p"
+    .string "Hey, wasn't that fun?\p"
     .string "My buddy CELIO seemed to enjoy\n"
     .string "your company.\p"
-    .string "I'm sure he'd welcome you if you\n"
-    .string "were to visit him again.\p"
-    .string "If you have a TRI-PASS, you can\n"
-    .string "always take a ferry there from\l"
-    .string "VERMILION PORT.\p"
-    .string "All right, thanks for your company!$"
+    .string "I bet you're glad you got to\n"
+    .string "experience something he was never\l"
+    .string "given the chance to.\p"
+    .string "You've only taken everything else\n"
+	.string "from him.$"
 

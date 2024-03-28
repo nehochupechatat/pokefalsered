@@ -33,11 +33,10 @@ ThreeIsland_BerryForest_Text_BerryPouchIsFull::
     .string "I guess you don't want this.$"
 
 ThreeIsland_BerryForest_Text_WelcomeToBerryForest::
-    .string "Welcome to the BERRY FOREST\p"
-    .string "Be friendly and share BERRIES with\n"
-    .string "others and POKéMON.$"
+    .string "Come little children, come with me\n"
+    .string "Safe and happy you will be$"
 
 ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons::
-    .string "Beware of wild, BERRY-loving\n"
-    .string "POKéMON!$"
+    .string "Away from your homes, now let us run\n"
+    .string "With HYPNO, you'll have so much fun$"
 

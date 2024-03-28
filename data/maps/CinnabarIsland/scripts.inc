@@ -37,7 +37,8 @@ CinnabarIsland_EventScript_MoveSeagallopDown::
 
 CinnabarIsland_EventScript_ReadyObjectsReturnFromSeviiIslands::
 	setobjectxyperm LOCALID_BILL, 13, 14
-	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_UP
+	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_RIGHT
+	applymovement OBJ_EVENT_ID_PLAYER, MOVEMENT_TYPE_FACE_LEFT
 	return
 
 CinnabarIsland_EventScript_CheckUnlockGym::
@@ -272,6 +273,7 @@ CinnabarIsland_Movement_BoatArrive::
 	walk_fast_right
 	walk_fast_right
 	walk_fast_right
+	walk_right
 	walk_right
 	walk_slower_right
 	step_end

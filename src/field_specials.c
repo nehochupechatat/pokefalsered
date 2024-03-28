@@ -213,10 +213,10 @@ bool8 PlayerHasGrassPokemonInParty(void)
 void AnimatePcTurnOn(void)
 {
     u8 taskId;
-
+	#if DEBUG_OVERWORLD_MENU == TRUE
     if (gIsDebugPC)
         return;
-	
+	#endif
     if (FuncIsActiveTask(Task_AnimatePcTurnOn) != TRUE)
     {
         taskId = CreateTask(Task_AnimatePcTurnOn, 8);
@@ -293,13 +293,13 @@ void AnimatePcTurnOff()
     s8 deltaX = 0;
     s8 deltaY = 0;
     u8 direction = GetPlayerFacingDirection();
-
+	#if DEBUG_OVERWORLD_MENU == TRUE
     if (gIsDebugPC)
     {
         gIsDebugPC = FALSE;
         return;
     }
-
+	#endif
 
     switch (direction)
     {

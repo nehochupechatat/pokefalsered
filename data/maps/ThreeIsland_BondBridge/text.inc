@@ -92,7 +92,8 @@ ThreeIsland_BondBridge_Text_MegNotEnoughMons::
     .string "One POKéMON isn't enough.$"
 
 ThreeIsland_BondBridge_Text_BerryForestAhead::
-    .string "BERRY FOREST AHEAD$"
+    .string "BERRY FOREST AHEAD\n"
+	.string "Come little children, come with me$"
 
 ThreeIsland_BondBridge_Text_BondBridgeSign::
     .string "BOND BRIDGE\n"
