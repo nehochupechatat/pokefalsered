@@ -39,7 +39,9 @@ CinnabarIsland_Gym_Text_MakeSpaceForThis::
 
 CinnabarIsland_Gym_Text_ErikIntro::
     .string "Do you know how hot POKéMON fire\n"
-    .string "breath can get?$"
+    .string "breath can get?\p"
+	.string "Just hot enough to roast FAKEs\n"
+	.string "like you!$"
 
 CinnabarIsland_Gym_Text_ErikDefeat::
     .string "Yow!\n"
@@ -52,26 +54,27 @@ CinnabarIsland_Gym_Text_ErikPostBattle::
     .string "Blah, blah, blah, blah…$"
 
 CinnabarIsland_Gym_Text_QuinnIntro::
-    .string "I was a thief, but I went straight\n"
-    .string "as a TRAINER.$"
+    .string "I was an identity thief, but I went\n"
+    .string "straight as an GYM WORKER.$"
 
 CinnabarIsland_Gym_Text_QuinnDefeat::
     .string "I surrender!$"
 
 CinnabarIsland_Gym_Text_QuinnPostBattle::
     .string "I get this uncontrollable urge to\n"
-    .string "steal other people's POKéMON.$"
+    .string "steal other people's identity.$"
 
 CinnabarIsland_Gym_Text_AveryIntro::
     .string "I've studied POKéMON thoroughly.\n"
-    .string "You can't win!$"
+    .string "You can't win! The only one who\l"
+	.string "even stood a chance was him!$"
 
 CinnabarIsland_Gym_Text_AveryDefeat::
     .string "Waah!\n"
-    .string "My studies were insufficient!$"
+    .string "You're too good at copying!$"
 
 CinnabarIsland_Gym_Text_AveryPostBattle::
-    .string "My theories are too complicated\n"
+    .string "Our loss is too complicated\n"
     .string "for you to understand.$"
 
 CinnabarIsland_Gym_Text_RamonIntro::
@@ -109,11 +112,12 @@ CinnabarIsland_Gym_Text_DustyDefeat::
     .string "Too hot!$"
 
 CinnabarIsland_Gym_Text_DustyPostBattle::
-    .string "PONYTA, NINETALES…\n"
+    .string "PONYTA, FLAREON, CHARIZARD…\n"
     .string "Those are popular FIRE POKéMON.$"
 
 CinnabarIsland_Gym_Text_ZacIntro::
-    .string "Fire is weak against H2O.$"
+    .string "Fire is weak against H2O.\n"
+	.string "He was smart, so he knew that.$"
 
 CinnabarIsland_Gym_Text_ZacDefeat::
     .string "Oh!\n"
@@ -126,7 +130,7 @@ CinnabarIsland_Gym_Text_ZacPostBattle::
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
     .string "Yo!\n"
-    .string "Champ in the making!\p"
+    .string "Liar in the making!\p"
     .string "The hotheaded BLAINE is a FIRE\n"
     .string "POKéMON pro.\p"
     .string "Douse his spirits with water!\p"
@@ -141,48 +145,42 @@ CinnabarIsland_Gym_Text_GymStatue::
     .string "CINNABAR POKéMON GYM\n"
     .string "LEADER: BLAINE\p"
     .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "{RIVAL}, RED$"
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
     .string "CINNABAR POKéMON GYM\n"
     .string "LEADER: BLAINE\p"
     .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "{RIVAL}, RED, {PLAYER}$"
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
     .string "POKéMON Quiz!\p"
     .string "Get it right, and the door opens to\n"
     .string "the next room.\p"
-    .string "Get it wrong, and face a TRAINER!\p"
-    .string "If you want to conserve your\n"
-    .string "POKéMON for the GYM LEADER…\p"
-    .string "Then get it right!\n"
-    .string "Here we go!$"
+    .string "Get it wrong, and face a TRAINER!$"
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
-    .string "CATERPIE evolves into METAPOD?$"
+    .string "Are you a liar?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion2::
-    .string "There are nine certified POKéMON\n"
-    .string "LEAGUE BADGES?$"
+    .string "Is this story yours?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion3::
-    .string "POLIWAG evolves three times?$"
+    .string "Do you belong here?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion4::
-    .string "Are electric moves effective\n"
-    .string "against GROUND-type POKéMON?$"
+    .string "Should you keep playing?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion5::
-    .string "POKéMON of the same kind and level\n"
-    .string "are not identical?$"
+    .string "Are you a FAKE?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion6::
-    .string "TM28 contains TOMBSTONY?$"
+    .string "Are you RED?$"
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
-    .string "You're absolutely correct!\p"
-    .string "Go on through!$"
+    .string "That's right!\p"
+    .string "You will never be him, but\n"
+	.string "good luck trying! Haha!$"
 
 CinnabarIsland_Gym_Text_SorryBadCall::
     .string "Sorry!\n"

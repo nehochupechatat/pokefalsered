@@ -19,7 +19,7 @@ CinnabarIsland_EventScript_ReadyObjectsSailToOneIslandFromPokeCenter::
 	setflag FLAG_TEMP_2
 	setobjectxyperm LOCALID_BILL, 15, 13
 	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_LEFT
-	setobjectxyperm LOCALID_SEAGALLOP, 4, 17
+	setobjectxyperm LOCALID_SEAGALLOP, 0, 17
 	return
 
 CinnabarIsland_EventScript_ReadyObjectsSailToOneIsland::
@@ -28,11 +28,11 @@ CinnabarIsland_EventScript_ReadyObjectsSailToOneIsland::
 	setflag FLAG_TEMP_2
 	setobjectxyperm LOCALID_BILL, 11, 7
 	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_RIGHT
-	setobjectxyperm LOCALID_SEAGALLOP, 4, 17
+	setobjectxyperm LOCALID_SEAGALLOP, 0, 17
 	return
 
 CinnabarIsland_EventScript_MoveSeagallopDown::
-	setobjectxyperm LOCALID_SEAGALLOP, 4, 17
+	setobjectxyperm LOCALID_SEAGALLOP, 0, 17
 	return
 
 CinnabarIsland_EventScript_ReadyObjectsReturnFromSeviiIslands::
@@ -80,12 +80,20 @@ CinnabarIsland_EventScript_ReturnFromSeviiIslands::
 	end
 
 CinnabarIsland_Movement_BillExit::
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 CinnabarIsland_EventScript_BillScene::
@@ -258,10 +266,13 @@ CinnabarIsland_Movement_BoatArrive::
 	walk_fast_right
 	walk_fast_right
 	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
 	walk_right
-	walk_right
-	walk_right
-	walk_slower_right
 	walk_slower_right
 	step_end
 

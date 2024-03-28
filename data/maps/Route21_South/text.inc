@@ -6,7 +6,7 @@ Route21_South_Text_JackDefeat::
 	.string "Down!!$"
 
 Route21_South_Text_JackPostBattle::
-	.string "Where'd you catch your POKéMON?$"
+	.string "How did you catch his POKéMON?$"
 
 Route21_South_Text_JeromeIntro::
 	.string "Right now, I'm in a triathlon meet.$"
@@ -28,25 +28,30 @@ Route21_South_Text_RolandDefeat::
 	.string "I lost!$"
 
 Route21_South_Text_RolandPostBattle::
-	.string "I'm sunburnt to a crisp!$"
+	.string "I'm sunburnt to a crisp!\n"
+	.string "The nearby volcano doesn't help.$"
 
 Route21_South_Text_ClaudeIntro::
-	.string "Hey, don't scare away the fish!$"
+	.string "Hey, don't wear his face like that!$"
 
 Route21_South_Text_ClaudeDefeat::
-	.string "Sorry! I'm just so frustrated from\n"
-	.string "not catching anything.$"
+	.string "Sorry! I'm just so frustrated over\n"
+	.string "him still not being found.$"
 
 Route21_South_Text_ClaudePostBattle::
-	.string "Sheesh, I haven't caught a thing.\n"
-	.string "Could this place actually be a\l"
-	.string "giant pool or something?$"
+	.string "Sheesh, I haven't caught a thing.\p"
+	.string "Could this place actually be\n"
+	.string "programmed to not catch\l"
+	.string "anything?$"
 
 Route21_South_Text_NolanIntro::
-	.string "Keep me company till I get a hit.$"
+	.string "You're him, aren't you?\n"
+	.string "Keep me company!$"
 
 Route21_South_Text_NolanDefeat::
-	.string "That burned some time.$"
+	.string "You're not him.\n"
+	.string "But at least I had somebody\l"
+	.string "to spend time with. Thanks!$"
 
 Route21_South_Text_NolanPostBattle::
 	.string "Oh wait!\n"
@@ -58,11 +63,14 @@ Route21_North_Text_LilIntro::
 
 Route21_North_Text_LilDefeat::
 	.string "LIL: Oh, see?\n"
-	.string "We lost. Happy now?$"
+	.string "We lost, just as programmed.\l"
+	.string "And it's not even to him!$"
 
 Route21_North_Text_LilPostBattle::
 	.string "LIL: I'm tired.\n"
-	.string "Can't we go home already?$"
+	.string "Can't we go home already?\p"
+	.string "We already got scammed by\n"
+	.string "a copycat!$"
 
 Route21_North_Text_LilNotEnoughMons::
 	.string "LIL: Huh? A battle?\n"
@@ -70,8 +78,8 @@ Route21_North_Text_LilNotEnoughMons::
 	.string "Bring two POKéMON, won't you?$"
 
 Route21_North_Text_IanIntro::
-	.string "IAN: My sis doesn't get enough\n"
-	.string "exercise, so I made her come.$"
+	.string "IAN: My sis wallows in despair\n"
+	.string "over the loss, so I made her come.$"
 
 Route21_North_Text_IanDefeat::
 	.string "IAN: Awww, Sis!\n"
@@ -79,7 +87,7 @@ Route21_North_Text_IanDefeat::
 
 Route21_North_Text_IanPostBattle::
 	.string "IAN: Come on, Sis!\p"
-	.string "You're not going to lose weight\n"
+	.string "You're not going to get happy\n"
 	.string "like this!$"
 
 Route21_North_Text_IanNotEnoughMons::

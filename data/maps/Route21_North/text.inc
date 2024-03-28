@@ -21,14 +21,16 @@ Route21_North_Text_WadePostBattle::
 	.string "I seem to only catch MAGIKARP!$"
 
 Route21_North_Text_SpencerIntro::
-	.string "The sea cleanses my body and soul!$"
+	.string "The sea cleanses my body and soul\n"
+	.string "of depressive thoughts!$"
 
 Route21_North_Text_SpencerDefeat::
 	.string "Ayah!$"
 
 Route21_North_Text_SpencerPostBattle::
-	.string "The sea is great and all, but I\n"
-	.string "like the mountains, too.$"
+	.string "The sea is great! I don't\n"
+	.string "like the mountains.\p"
+	.string "He went there and disappeared.$"
 
 @ Below is the battle text for the Cue Ball that was on Route 21 in Gen 1.
 @ This trainer wasnt used in Gen 3 so their text goes unused/untranslated

@@ -2057,7 +2057,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_GASTLY"
               },
               {
                 "min_level": 32,
@@ -2067,7 +2067,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_GASTLY"
               },
               {
                 "min_level": 36,
@@ -2087,22 +2087,12 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GRIMER"
+                "species": "SPECIES_HAUNTER"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_WEEZING"
-              },
-              {
-                "min_level": 32,
-                "max_level": 32,
-                "species": "SPECIES_GROWLITHE"
-              },
-              {
-                "min_level": 26,
-                "max_level": 26,
-                "species": "SPECIES_RATTATA"
+                "species": "SPECIES_HAUNTER"
               },
               {
                 "min_level": 32,
@@ -2113,6 +2103,16 @@
                 "min_level": 26,
                 "max_level": 26,
                 "species": "SPECIES_RATTATA"
+              },
+              {
+                "min_level": 32,
+                "max_level": 32,
+                "species": "SPECIES_GROWLITHE"
+              },
+              {
+                "min_level": 26,
+                "max_level": 26,
+                "species": "SPECIES_DITTO"
               }
             ]
           }
