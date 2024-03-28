@@ -1468,12 +1468,12 @@
     {
       "id": "LAYOUT_POKEMON_MANSION_1F",
       "name": "PokemonMansion_1F_Layout",
-      "width": 38,
+      "width": 76,
       "height": 35,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonMansion",
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/PokemonMansion_1F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonMansion_1F/map.bin"
     },

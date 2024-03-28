@@ -9,16 +9,17 @@ PokemonMansion_Text_NotQuiteYet::
     .string "Not quite yet!$"
 
 PokemonMansion_1F_Text_ArnieIntro::
-    .string "I can't get out!\n"
-    .string "This old place is one big puzzle.$"
+    .string "Halt!\n"
+    .string "Don't stop me from looting this\l"
+	.string "old cave! The ITEMs are mine!$"
 
 PokemonMansion_1F_Text_ArnieDefeat::
     .string "Oh, no!\n"
     .string "My bag of loot!$"
 
 PokemonMansion_1F_Text_ArniePostBattle::
-    .string "The switches here open and close\n"
-    .string "alternating sets of doors.$"
+    .string "This place is not for unattended\n"
+    .string "kids! Now shoo!$"
 
 PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle::
     .string "Diary: July 5\n"

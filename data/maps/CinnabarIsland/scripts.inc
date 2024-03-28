@@ -17,26 +17,26 @@ CinnabarIsland_OnTransition::
 CinnabarIsland_EventScript_ReadyObjectsSailToOneIslandFromPokeCenter::
 	savebgm MUS_FOLLOW_ME
 	setflag FLAG_TEMP_2
-	setobjectxyperm LOCALID_BILL, 15, 12
+	setobjectxyperm LOCALID_BILL, 15, 13
 	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_LEFT
-	setobjectxyperm LOCALID_SEAGALLOP, 30, 12
+	setobjectxyperm LOCALID_SEAGALLOP, 4, 17
 	return
 
 CinnabarIsland_EventScript_ReadyObjectsSailToOneIsland::
 	getplayerxy VAR_0x8004, VAR_0x8005
 	goto_if_ge VAR_0x8004, 18, CinnabarIsland_EventScript_MoveSeagallopDown
 	setflag FLAG_TEMP_2
-	setobjectxyperm LOCALID_BILL, 18, 12
-	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_UP
-	setobjectxyperm LOCALID_SEAGALLOP, 30, 12
+	setobjectxyperm LOCALID_BILL, 11, 7
+	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_SEAGALLOP, 4, 17
 	return
 
 CinnabarIsland_EventScript_MoveSeagallopDown::
-	setobjectxyperm LOCALID_SEAGALLOP, 30, 8
+	setobjectxyperm LOCALID_SEAGALLOP, 4, 17
 	return
 
 CinnabarIsland_EventScript_ReadyObjectsReturnFromSeviiIslands::
-	setobjectxyperm LOCALID_BILL, 21, 8
+	setobjectxyperm LOCALID_BILL, 13, 14
 	setobjectmovementtype LOCALID_BILL, MOVEMENT_TYPE_FACE_UP
 	return
 
@@ -91,15 +91,13 @@ CinnabarIsland_Movement_BillExit::
 CinnabarIsland_EventScript_BillScene::
 	lockall
 	textcolor NPC_TEXT_COLOR_MALE
-	call_if_unset FLAG_TEMP_2, CinnabarIsland_EventScript_BillFacePlayer1
-	call_if_set FLAG_TEMP_2, CinnabarIsland_EventScript_BillFacePlayer2
+	call CinnabarIsland_EventScript_BillFacePlayer2
 	playse SE_PIN
 	applymovement LOCALID_BILL, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement LOCALID_BILL, Common_Movement_Delay48
 	waitmovement 0
-	call_if_unset FLAG_TEMP_2, CinnabarIsland_EventScript_BillApproachPlayer1
-	call_if_set FLAG_TEMP_2, CinnabarIsland_EventScript_BillApproachPlayer2
+	call CinnabarIsland_EventScript_BillApproachPlayer2
 	msgbox CinnabarIsland_Text_HeyIfItIsntPlayer
 	msgbox CinnabarIsland_Text_ComeWithMeToOneIsland, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, CinnabarIsland_EventScript_AgreeSailToOneIsland
@@ -107,12 +105,12 @@ CinnabarIsland_EventScript_BillScene::
 	end
 
 CinnabarIsland_EventScript_BillFacePlayer1::
-	applymovement LOCALID_BILL, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_BILL, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 CinnabarIsland_EventScript_BillFacePlayer2::
-	applymovement LOCALID_BILL, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_BILL, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
@@ -124,7 +122,7 @@ CinnabarIsland_EventScript_BillApproachPlayer1::
 CinnabarIsland_EventScript_BillApproachPlayer2::
 	applymovement LOCALID_BILL, CinnabarIsland_Movement_BillApproachPlayer2
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
@@ -174,18 +172,24 @@ CinnabarIsland_EventScript_BillReturnToPokeCenter::
 	return
 
 CinnabarIsland_Movement_PlayerWatchBillExit::
-	walk_left
-	walk_in_place_faster_right
+	walk_in_place_faster_left
+	
 	step_end
 
 CinnabarIsland_Movement_BillApproachDoor::
 	delay_16
 	walk_left
-	walk_in_place_faster_up
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 CinnabarIsland_Movement_BillReEnterPokeCenter::
-	walk_up
+	walk_down
 	delay_4
 	set_invisible
 	step_end
@@ -242,18 +246,19 @@ CinnabarIsland_EventScript_BoardBoatExitedPokeCenter::
 CinnabarIsland_Movement_BoatArrive::
 	delay_16
 	delay_16
-	walk_fast_left
-	walk_fast_left
-	walk_left
-	walk_slower_left
-	walk_slower_left
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_right
+	walk_right
+	walk_right
+	walk_slower_right
+	walk_slower_right
 	step_end
 
 CinnabarIsland_Movement_BillBoardBoat::
-	walk_right
 	walk_down
 	walk_down
-	walk_right
 	delay_4
 	set_invisible
 	step_end
@@ -263,29 +268,34 @@ CinnabarIsland_Movement_BillApproachPlayer1::
 	step_end
 
 CinnabarIsland_Movement_BillApproachPlayer2::
-	walk_left
-	walk_left
-	walk_left
+	walk_right
 	step_end
 
 CinnabarIsland_Movement_BillFaceBoat::
 	delay_16
 	delay_16
 	delay_8
-	walk_in_place_faster_right
+	walk_in_place_faster_down
 	step_end
 
 CinnabarIsland_Movement_ApproachShore::
+	walk_left
+	walk_left
+	walk_down
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	walk_right
 	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_in_place_faster_down
 	step_end
 
 CinnabarIsland_Movement_BillBoardBoatFromShore::
-	walk_right
+	walk_down
 	delay_4
 	set_invisible
 	step_end
@@ -303,9 +313,7 @@ CinnabarIsland_Movement_PlayerBoardBoat::
 	step_end
 
 CinnabarIsland_Movement_PlayerBoardBoatFromShore::
-	walk_right
-	delay_4
-	walk_right
+	walk_down
 	delay_4
 	set_invisible
 	step_end

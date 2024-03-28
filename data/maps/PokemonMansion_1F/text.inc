@@ -1,17 +1,17 @@
 PokemonMansion_1F_Text_TedIntro::
     .string "Who are you?\n"
-    .string "There shouldn't be anyone here.$"
+    .string "You shouldn't be here.$"
 
 PokemonMansion_1F_Text_TedDefeat::
     .string "Ouch!$"
 
 PokemonMansion_1F_Text_TedPostBattle::
-    .string "A key? I don't know what you're\n"
-    .string "talking about.$"
+    .string "You're not trying to copy him?\n"
+    .string "I don't know what you mean.$"
 
 PokemonMansion_1F_Text_JohnsonIntro::
     .string "W-w-waah! You startled me!\n"
-    .string "I thought you were a ghost.$"
+    .string "I thought you were his ghost.$"
 
 PokemonMansion_1F_Text_JohnsonDefeat::
     .string "Tch!\n"
