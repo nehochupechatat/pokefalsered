@@ -196,7 +196,7 @@ CinnabarIsland_Movement_BillReEnterPokeCenter::
 
 @ Can be triggered outside, or after talking to Bill in the poke center
 CinnabarIsland_EventScript_SailToOneIsland::
-	call_if_set FLAG_TEMP_2, CinnabarIsland_EventScript_ApproachShore
+	call_if_set FLAG_TEMP_2, CinnabarIsland_EventScript_ApproachShoreCheck
 	addobject LOCALID_SEAGALLOP
 	call_if_unset FLAG_TEMP_2, CinnabarIsland_EventScript_BoatArrive
 	call_if_set FLAG_TEMP_2, CinnabarIsland_EventScript_BoatArriveExitedPokeCenter
@@ -213,10 +213,19 @@ CinnabarIsland_EventScript_SailToOneIsland::
 	setvar VAR_0x8006, SEAGALLOP_ONE_ISLAND
 	goto EventScript_SetSail
 	end
-
+CinnabarIsland_EventScript_ApproachShoreCheck::
+	goto_if_eq VAR_MAP_SCENE_CINNABAR_ISLAND_2, 2, CinnabarIsland_EventScript_ApproachShore2
+	goto CinnabarIsland_EventScript_ApproachShore
+	
 CinnabarIsland_EventScript_ApproachShore::
 	applymovement LOCALID_BILL, CinnabarIsland_Movement_ApproachShore
 	applymovement OBJ_EVENT_ID_PLAYER, CinnabarIsland_Movement_ApproachShore
+	waitmovement 0
+	return
+	
+CinnabarIsland_EventScript_ApproachShore2::
+	applymovement LOCALID_BILL, CinnabarIsland_Movement_ApproachShore2
+	applymovement OBJ_EVENT_ID_PLAYER, CinnabarIsland_Movement_ApproachShore2
 	waitmovement 0
 	return
 
@@ -294,6 +303,13 @@ CinnabarIsland_Movement_ApproachShore::
 	walk_in_place_faster_down
 	step_end
 
+CinnabarIsland_Movement_ApproachShore2::
+	walk_left
+	walk_down
+	walk_left
+	walk_in_place_faster_down
+	step_end
+	
 CinnabarIsland_Movement_BillBoardBoatFromShore::
 	walk_down
 	delay_4
