@@ -73,7 +73,7 @@ $(MID_SUBDIR)/mus_poke_jump.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G132 -V090
 
 $(MID_SUBDIR)/mus_heal_unused.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G140 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G168 -V090
 
 $(MID_SUBDIR)/mus_oak_lab.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G160 -V075
