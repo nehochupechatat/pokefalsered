@@ -6,10 +6,9 @@ Text_OnlyPassWithChampDontHaveYet::
 	.string "It's too dangerous out there.\p"
 	.string "I can't let you pass.$"
 
-Text_OhThatsChampGoRightAheadGoRightAhead::
+Text_OhThatsChampGoRightAhead::
 	.string "Oh! So you are CHAMPION!\n"
 	.string "You're worthy of entering\l"
 	.string "MT. SILVER!\p"
 	.string "Go right ahead.\n"
 	.string "Save him for all of us.$"
-	

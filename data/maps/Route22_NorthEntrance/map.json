@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE22_NORTH_ENTRANCE",
   "name": "Route22_NorthEntrance",
   "layout": "LAYOUT_ROUTE22_NORTH_ENTRANCE",
-  "music": "MUS_VIRIDIAN_FOREST",
+  "music": "MUS_VICTORY_ROAD",
   "region_map_section": "MAPSEC_ROUTE_22",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -105,6 +105,15 @@
     {
       "type": "trigger",
       "x": 5,
+      "y": 12,
+      "elevation": 3,
+      "var": "VAR_MAP_SCENE_ROUTE23",
+      "var_value": "0",
+      "script": "Route23_EventScript_ChampGuardTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
       "y": 12,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_ROUTE23",

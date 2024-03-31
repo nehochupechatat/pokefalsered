@@ -37,7 +37,8 @@ Route23_EventScript_AlreadyRecognizedChampion::
 	end
 
 Route23_EventScript_MtSilverGuard::
-	goto_if_ge VAR_MAP_SCENE_ROUTE23, Route23_EventScript_CheckChampion, Route23_EventScript_AlreadyRecognizedChampion
+	goto_if_set FLAG_BECAME_LEAGUE_CHAMPION, Route23_EventScript_AlreadyRecognizedChampion
+	goto Route23_EventScript_CheckChampion
 	end
 
 Route23_EventScript_CheckChampion::
@@ -48,12 +49,11 @@ Route23_EventScript_CheckChampion::
 
 Route23_EventScript_ChampGuardTrigger::
 	textcolor NPC_TEXT_COLOR_MALE
-	applymovement VAR_0x8009, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
 	goto Route23_EventScript_CheckChampTrigger
 	end
 
 Route23_EventScript_CheckChampTrigger::
+	lockall
 	goto_if_set FLAG_BECAME_LEAGUE_CHAMPION, Route23_EventScript_RecognizeChampionTrigger
 	goto Route23_EventScript_MissingChampTrigger
 	end
@@ -62,9 +62,7 @@ Route23_EventScript_MissingChampTrigger::
 	msgbox Text_OnlyPassWithChampDontHaveYet
 	playse SE_BOO
 	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, Route23_Movement_WalkDown
-	applymovement VAR_0x8009, Common_Movement_WalkInPlaceFasterDown
-	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Route23_Movement_WalkUp
 	releaseall
 	end
 
@@ -74,6 +72,17 @@ Route23_EventScript_RecognizeChampionTrigger::
 	playfanfare MUS_LEVEL_UP
 	waitfanfare
 	waitbuttonpress
-	copyvar VAR_MAP_SCENE_ROUTE23, VAR_TEMP_1
+	copyvar VAR_MAP_SCENE_ROUTE23, 9
 	releaseall
 	end
+	
+Route23_EventScript_RecognizeChampion::
+	msgbox Text_OhThatsChampGoRightAhead
+	copyvar VAR_MAP_SCENE_ROUTE23, 9
+	release
+	end
+
+Route23_Movement_WalkUp::
+	walk_up
+	walk_up
+	step_end
